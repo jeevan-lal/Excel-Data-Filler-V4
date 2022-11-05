@@ -1,0 +1,27 @@
+# Special Key
+
+Special key is used for some special work, such as what to do if your form gets filled or what to do after the entry is saved, all these work is done by the special key.
+
+## Insert Key
+
+If you type `{` character in the Field Name field, then you will see the names of all the special keys in which you can use any one according to your work.
+
+![Insert Special Key](/image/insert-special-key.png)
+
+## Public Keys
+
+You can insert public special key but you cannot insert private special key. Private key only inserts extension.
+
+| Key Name                 | Key Description                                                                     |
+| ------------------------ | ----------------------------------------------------------------------------------- |
+| **{FORM-FILLED}**        | After filling the form successfully, what you have to do, you can do by this key.   |
+| **{ENTRY-SAVED}**        | After the form is successfully saved, what you have to do, you can do by this key.  |
+| **{PRINT-ENTRY-ERRORS}** | If you want to see the errors after filling the form, then this has to be inserted. |
+
+## Private Keys
+
+| Key Name              | Key Description             |
+| --------------------- | --------------------------- |
+| **{IS-ENTRY-SAVED}**  | if excel entry completed.   |
+| **{FORM-01-SUCCESS}, {FORM-02-SUCCESS}, ..** | Store entry success message |
+| **{FORM-01-ERROR}, {FORM-01-ERROR}, ..**   | Store entry error message   |
