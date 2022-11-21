@@ -10,3 +10,14 @@ If you want to check an element whether the element is in the page or not, then 
 | -------------- | -------- |
 | Selector Type  | true     |
 | Selector Query | true     |
+
+
+## cleanSessionStorage
+
+This method removes all the Session Storage Object item for this domain.
+
+## cleanLocalStorage
+
+This method removes all the Local Storage Object item for this domain.
+
+

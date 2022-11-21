@@ -73,6 +73,14 @@ const sideBarList = [
       {
         text: 'forceCheckElementExists',
         link: '/documentation/functions.html#forceCheckElementExists'
+      },
+      {
+        text: 'cleanSessionStorage',
+        link: '/documentation/functions.html#cleansessionstorage'
+      },
+      {
+        text: 'cleanLocalStorage',
+        link: '/documentation/functions.html#cleanlocalstorage'
       }
     ]
   },
@@ -109,6 +117,8 @@ export default {
     ['meta', { name: 'og:image:type', content: 'image/png' }],
   ],
   themeConfig: {
+    nextLinks: true,
+    prevLinks: true,
     // logo: '/32x32.png',
     socialLinks: [
       { icon: "github", link: "https://github.com/jeevan-lal/Excel-Data-Filler-V4" },
@@ -138,6 +148,10 @@ export default {
     footer: {
       message: "Released under the MIT License.",
       copyright: `Copyright © 2021-${new Date().getFullYear()} C Tech Hindi`,
-    }
+    },
+    editLink: {
+      pattern: 'https://github.com/jeevan-lal/Excel-Data-Filler-V4/blob/master/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
   },
 }

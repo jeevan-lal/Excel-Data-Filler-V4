@@ -15,6 +15,9 @@ After filling the form of the site, you have to insert the field of the form, th
 - Radio (Single Selection)
 - Date
 - Button
+- Upload File
+- Material Single Select `(Vuetify 3, MUI, etc.)`
+- Material Multiple Select `(Vuetify 3, MUI, etc.)`
 - [👩‍💻 Javascript Code](#execute-javascript)
 - [🚀 Function](/documentation/functions.html#predefined-function)
 - [🔑 Keys](/documentation/keys.html#special-key) 

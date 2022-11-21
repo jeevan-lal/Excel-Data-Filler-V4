@@ -40,7 +40,9 @@ Customization site settings.
 
 If you are using date in excel sheet, then you can set the format of date in the site through this option.
 
-> Default Date Format: yyyy-mm-dd
+::: tip
+Default Date Format: yyyy-mm-dd
+:::
 
 The following date formats are used:
 

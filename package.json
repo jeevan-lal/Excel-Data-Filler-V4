@@ -1,6 +1,6 @@
 {
   "name": "excel-data-filler-doc",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Excel Data Filler Extension Documentation",
   "scripts": {
     "dev": "vitepress dev docs",
@@ -15,7 +15,7 @@
   "author": "Jeevan Lal",
   "license": "MIT",
   "dependencies": {
-    "vitepress": "^1.0.0-alpha.27",
+    "vitepress": "^1.0.0-alpha.29",
     "vue": "^3.2.41"
   }
 }

@@ -1,3 +1,8 @@
+---
+# prev: 'Get Started | Markdown'
+# next: 'Icon'
+---
+
 ## Introduction
 
 Everything to do data entry automatic, Auto Generate Excel, Auto Fill Form Fields, Auto Click Buttons, Run Custom Javascript, Store Entry Response
@@ -6,9 +11,9 @@ Everything to do data entry automatic, Auto Generate Excel, Auto Fill Form Field
 
 Excel Data Filler extension is available for all major browsers.
 
-![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png) |
---- | --- | --- | --- | --- |
-Latest ✔ | Testing 👩‍🏫 | Testing 👩‍🏫 | Testing 👩‍🏫 | Testing 👩‍🏫 |
+| ![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png) |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Latest ✔                                                                                            | Testing 👩‍🏫                                                                                             | Testing 👩‍🏫                                                                                       | Testing 👩‍🏫                                                                                    | Testing 👩‍🏫                                                                                          |
 
 ### Download Extension
 
