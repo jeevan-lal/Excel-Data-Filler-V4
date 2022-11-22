@@ -35,8 +35,12 @@ const sideBarList = [
     collapsible: true,
     items: [
       {
-        text: 'Site Page',
-        link: '/documentation/site.html#site'
+        text: 'Insert Site',
+        link: '/documentation/site.html#insert-site'
+      },
+      {
+        text: 'Insert Site Form',
+        link: '/documentation/site.html#insert-site-form'
       },
       {
         text: 'Download Excel',
@@ -91,6 +95,16 @@ const sideBarList = [
       {
         text: 'Insert Key',
         link: '/documentation/keys.html#insert-key'
+      }
+    ]
+  },
+  {
+    text: 'Testing',
+    collapsible: true,
+    items: [
+      {
+        text: 'Site',
+        link: '/documentation/testing-site.html'
       }
     ]
   }

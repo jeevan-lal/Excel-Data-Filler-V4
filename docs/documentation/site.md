@@ -22,6 +22,20 @@ First we have to [insert the site](#insert-site), after that by editing the site
 - Click Save Button.
 - DONE 🎉
 
+## Insert Multiple Form
+
+If your site has multiple forms, then you can insert all the forms in the same site, for this you have to first [insert the main form of the site](#insert-site).
+
+After the site is inserted, you will have to copy the id of the site with the help of the image given below.
+
+<img src="/image/copy_site_id.png" width="350" height="350" alt="Copy Site ID">
+
+After the site id is copied, you will open the form which you have to insert, after opening, right click on the icon of Extension and select the option of **Insert Form** like the image given below.
+
+<img src="/image/insert-site-form-01.png" width="350" height="350" alt="Insert Site Form">
+
+DONE 🎉
+
 ## Insert Form Field
 
 After filling the form of the site, you have to insert the field of the form, this field is automatic fill. After entering the field name or field type, you can insert the field. [more details](/documentation/field.html#insert-field)
@@ -30,7 +44,7 @@ After filling the form of the site, you have to insert the field of the form, th
 
 Before download Excel Template of any site, you have to insert the Site's Form and Form Field. Excel sheet can be downloaded only if the field is present in the form. You can download the excel sheet from the image given below. 📥
 
-![Download Excel Template](/image/download-excel-template-01.png)
+<img src="/image/download-excel-template-01.png" width="350" height="350" alt="Download Excel Template">
 
 ## Settings
 

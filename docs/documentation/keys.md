@@ -6,7 +6,7 @@ Special key is used for some special work, such as what to do if your form gets 
 
 If you type `{` character in the Field Name field, then you will see the names of all the special keys in which you can use any one according to your work.
 
-![Insert Special Key](/image/insert-special-key.png)
+<img src="/image/insert-special-key.png" width="250" height="250" alt="Insert Special Key">
 
 ## Public Keys
 
