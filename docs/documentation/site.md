@@ -34,6 +34,8 @@ After the site id is copied, you will open the form which you have to insert, af
 
 <img src="/image/insert-site-form-01.png" width="350" height="350" alt="Insert Site Form">
 
+After this, you have to paste the site id in the prompt box and press it ok, your form will be inserted in that site.
+
 DONE 🎉
 
 ## Insert Form Field

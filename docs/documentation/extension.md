@@ -13,3 +13,4 @@ Extension status can now be tracked much better
 - On/Off Extension
 - Hide Any Type of Javascript Dialog (Alert, Confirm, Prompt).
 - Insert Site/Form Settings.
+- Logs Settings.
