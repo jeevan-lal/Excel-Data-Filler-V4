@@ -26,3 +26,15 @@ Excel Data Filler extension is available for all major browsers.
 - Right click on the extension icon and choose **insert site** option or you can also do it by right clicking on the form.
 
 ![Chrome](/image/insert-site-01.png)
+
+## Video Tutorial
+
+<iframe width="560" height="315" title="youtube" src="https://www.youtube.com/embed/PZn1Rm83TS0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Join
+
+- [📺 YouTube](https://www.youtube.com/@ctechhindi)
+- [👨‍👧‍👧 WhatsApp Group](https://chat.whatsapp.com/F2AdHoZRvr8HiAbvWqKlVS)
+- [📦 GitHub](https://github.com/jeevan-lal/Excel-Data-Filler-V4)
+- [💻 Testing Site](/documentation/testing-site.html)
+- [💳 Support](https://rzp.io/l/excel-data-filler-support)

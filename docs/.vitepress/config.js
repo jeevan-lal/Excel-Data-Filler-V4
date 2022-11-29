@@ -14,6 +14,14 @@ const sideBarList = [
         text: 'Quick Start',
         link: '/documentation/#quick-start'
       },
+      {
+        text: 'Video Tutorial',
+        link: '/documentation/#video-tutorial'
+      },
+      {
+        text: 'Join',
+        link: '/documentation/#join'
+      },
     ]
   },
   {
@@ -135,12 +143,13 @@ export default {
     prevLinks: true,
     // logo: '/32x32.png',
     socialLinks: [
+      { icon: "youtube", link: "https://www.youtube.com/@ctechhindi" },
       { icon: "github", link: "https://github.com/jeevan-lal/Excel-Data-Filler-V4" },
     ],
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Documentation', link: '/documentation/' },
-      { text: 'Download', link: 'https://efiller.netlify.app/' },
+      { text: 'Download', link: '/documentation/#download-extension' },
       {
         text: `v${version}`,
         items: [

@@ -12,8 +12,8 @@ hero:
       text: Get Started
       link: /documentation/
     - theme: alt
-      text: Changelog
-      link: https://github.com/jeevan-lal/Excel-Data-Filler-V4/releases
+      text: Support
+      link: https://rzp.io/l/excel-data-filler-support
 features:
   - icon: 🧬
     title: Auto Generate Excel Template
