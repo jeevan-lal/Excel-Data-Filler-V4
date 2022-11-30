@@ -69,3 +69,7 @@ The following date formats are used:
 ### View Excel Column Data
 
 This option is used when you upload an excel sheet and to see the view of the excel sheet, open the tab of **View Excel Data**, then you see the excel data in the form of a table. If you want to see the data of an excel column or not, then you can set it in this option.
+
+### Export Site Data
+
+To backup the data of the site, which you can [import](/documentation/extension.html#export-import-settings) from the extension settings page.
