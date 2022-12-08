@@ -15,7 +15,7 @@ After filling the form of the site, you have to insert the field of the form, th
 - Radio (Single Selection)
 - Date
 - Button
-- Upload File
+- [Upload File](#upload-file)
 - Material Single Select
 - Material Multiple Select
 - [👩‍💻 Javascript Code](#execute-javascript)
@@ -25,6 +25,12 @@ After filling the form of the site, you have to insert the field of the form, th
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
 :::
+
+## Upload File
+
+To select the file by extension, you must first install a program in the pc. Which can be downloaded from the link given below.
+
+- [For Windows](/install-edf-file-picker.exe)
 
 ## Execute Javascript
 
