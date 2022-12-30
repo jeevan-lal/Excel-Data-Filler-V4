@@ -21,6 +21,9 @@ After filling the form of the site, you have to insert the field of the form, th
 - [👩‍💻 Javascript Code](#execute-javascript)
 - [🚀 Function](/documentation/functions.html#predefined-function)
 - [🔑 Keys](/documentation/keys.html#special-key)
+- Fetch Text (Scraper Data)
+- Fetch HTML (Scraper Data)
+- Insert HTML
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
