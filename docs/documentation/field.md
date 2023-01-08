@@ -23,7 +23,10 @@ After filling the form of the site, you have to insert the field of the form, th
 - [🔑 Keys](/documentation/keys.html#special-key)
 - Fetch Text (Scraper Data)
 - Fetch HTML (Scraper Data)
+- Fetch Simple Table Data (Scraper Data)
 - Insert HTML
+- URL Matching
+- URL Open
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.

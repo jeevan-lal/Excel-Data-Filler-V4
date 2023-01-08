@@ -103,6 +103,18 @@ const sideBarList = [
       {
         text: 'Insert Key',
         link: '/documentation/keys.html#insert-key'
+      },
+      {
+        text: 'Public Key',
+        link: '/documentation/keys.html#public-keys'
+      },
+      {
+        text: 'Private Key',
+        link: '/documentation/keys.html#private-keys'
+      },
+      {
+        text: 'Variable Key',
+        link: '/documentation/keys.html#variable-keys'
       }
     ]
   },
@@ -153,6 +165,10 @@ export default {
       {
         text: `v${version}`,
         items: [
+          {
+            text: 'Changelog',
+            link: 'https://efiller.netlify.app/changelog',
+          },
           {
             text: 'Report Issues',
             link: 'https://github.com/jeevan-lal/Excel-Data-Filler-V4/issues',

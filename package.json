@@ -1,6 +1,6 @@
 {
   "name": "excel-data-filler-doc",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "description": "Excel Data Filler Extension Documentation",
   "scripts": {
     "dev": "vitepress dev docs",
