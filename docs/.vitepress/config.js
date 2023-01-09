@@ -44,11 +44,15 @@ const sideBarList = [
     items: [
       {
         text: 'Insert Site',
-        link: '/documentation/site.html#insert-site'
+        link: '/documentation/site.html#site'
       },
       {
-        text: 'Insert Site Form',
+        text: 'Insert Site Form 📢',
         link: '/documentation/site.html#insert-site-form'
+      },
+      {
+        text: 'Scraper Data 📢',
+        link: '/documentation/site.html#scraper-data'
       },
       {
         text: 'Download Excel',
@@ -65,16 +69,26 @@ const sideBarList = [
     collapsible: true,
     items: [
       {
-        text: 'Insert Field',
+        text: 'Insert Field 📢',
         link: '/documentation/field.html#form-field'
       },
       {
-        text: 'Execute Javascript',
-        link: '/documentation/field.html#execute-javascript'
+        text: 'Field Response Action',
+        link: '/documentation/field.html#field-response-action'
       },
       {
         text: 'Entry Response',
         link: '/documentation/field.html#entry-response'
+      }
+    ]
+  },
+  {
+    text: 'Segment 📢',
+    collapsible: true,
+    items: [
+      {
+        text: 'Information',
+        link: '/documentation/segment.html'
       }
     ]
   },
@@ -113,7 +127,7 @@ const sideBarList = [
         link: '/documentation/keys.html#private-keys'
       },
       {
-        text: 'Variable Key',
+        text: 'Variable Key 📢',
         link: '/documentation/keys.html#variable-keys'
       }
     ]

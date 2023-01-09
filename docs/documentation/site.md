@@ -18,9 +18,34 @@ First we have to [insert the site](#insert-site), after that by editing the site
 
 - First [Insert Site](#insert-site).
 - Click the edit site button.
-- Open **Site Form Pages** tab and click insert form button and fill page **Form Url** and **Url Match Type**.
+- Open **Site Form Pages** tab and click insert form button and fill page **Form URL** and [**URL Match Type**](#form-url-match-types).
 - Click Save Button.
 - DONE 🎉
+
+<br>
+
+#### Form URL Match Types
+
+- Match with Full URL
+- Match with URL pathname
+- Match with URL hostname
+- Match with RegEx
+
+::: tip
+
+Match with RegEx (Two RegEx)
+
+- (:any)
+- (:any(:end))
+
+:::
+
+| SITE FORM URL WITH REGEX        | SITE FORM URL                    | IS MATCHED |
+| ------------------------------- | -------------------------------- | ---------- |
+| http://demo.in/new/(:any)/edit  | http://demo.in/new/jK33k3ui/edit | ✔          |
+| http://demo.in/new/(:any(:end)) | http://demo.in/new/jK33k3ui      | ✔          |
+
+<img src="/image/form-url-with-regex.png" width="500" height="500" alt="RegEx">
 
 ## Insert Multiple Form
 
@@ -47,6 +72,17 @@ After filling the form of the site, you have to insert the field of the form, th
 Before download Excel Template of any site, you have to insert the Site's Form and Form Field. Excel sheet can be downloaded only if the field is present in the form. You can download the excel sheet from the image given below. 📥
 
 <img src="/image/download-excel-template-01.png" width="350" height="350" alt="Download Excel Template">
+
+## Scraper Data
+
+If you are scraping data from the site and the scraped data of one of your entries is in **multiple rows**, then it is stored with this option and is downloaded from here only.
+
+::: tip
+The data of these field types is downloaded from this option only.
+
+- Fetch Simple Table Data (Scraper Data)
+
+:::
 
 ## Settings
 

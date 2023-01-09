@@ -25,20 +25,20 @@ After filling the form of the site, you have to insert the field of the form, th
 - Fetch HTML (Scraper Data)
 - Fetch Simple Table Data (Scraper Data)
 - Insert HTML
-- URL Matching
-- URL Open
+- [URL Matching](#url-matching)
+- [URL Open](#url-open)
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
 :::
 
-## Upload File
+### Upload File
 
 To select the file by extension, you must first install a program in the pc. Which can be downloaded from the link given below.
 
 - [For Windows](/install-edf-file-picker.exe)
 
-## Execute Javascript
+### Execute Javascript
 
 You can use Javascript code in any field or you can give any field only in **Javascript type**. We have used [Monaco Editor](https://microsoft.github.io/monaco-editor/) to edit Javascript code. 🚀
 
@@ -47,12 +47,38 @@ You can use Javascript code in any field or you can give any field only in **Jav
 localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", "1");
 ```
 
-### Editor Shortcut keys
+#### Editor Shortcut keys
 
 - `F11` = Full Screen
 - `Ctrl + S` = Save
 - `Ctrl + Z` = Word Wrap
 - `Shift + Alt + L` = Debug Console Log
+
+### URL Matching
+
+Check that the opened URL matches your URL. You can also add data from excel column in URL. as per the image below. And you can also use [variable key](/documentation/keys.html#variable-keys) in it.
+
+<img src="/image/url-matching-01.png" width="400" height="400" alt="URL Matching">
+
+### URL Open
+
+If you are opening a url. You can also add data from an Excel column to Open URL. as per the image below. And you can also use [variable key](/documentation/keys.html#variable-keys) in it.
+
+<img src="/image/url-open-01.png" width="400" height="400" alt="URL Open">
+
+## Field Response Action
+
+After form field running, we get two types of response **success** and **error**. You can get the action executed according to the response of any field through this option.
+
+### Field Success Response Action
+
+<br>
+<img src="/image/field-success-response-action-01.png" width="400" height="400" alt="Field Success Response Action">
+
+### Field Error Response Action
+
+<br>
+<img src="/image/field-error-response-action-01.png" width="400" height="400" alt="Field Error Response Action">
 
 ## Entry Response
 
