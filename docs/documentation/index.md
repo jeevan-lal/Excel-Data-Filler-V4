@@ -9,7 +9,7 @@ Everything to do data entry automatic, Auto Generate Excel, Auto Fill Form Field
 
 ### Availability
 
-Excel Data Filler extension is available for all major browsers.
+Excellent Data Filler extension is available for all major browsers.
 
 | ![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png) |
 | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -17,7 +17,7 @@ Excel Data Filler extension is available for all major browsers.
 
 ### Download Extension
 
-- [Chrome Browser](https://chrome.google.com/webstore/detail/excel-data-filler-cth/abafaagbfhobgjkcepckbnadafflkdea)
+- [Chrome Browser](https://chrome.google.com/webstore/detail/excellent-data-filler-cth/abafaagbfhobgjkcepckbnadafflkdea)
 
 ## Quick Start
 

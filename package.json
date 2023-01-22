@@ -1,7 +1,7 @@
 {
-  "name": "excel-data-filler-doc",
-  "version": "4.0.10",
-  "description": "Excel Data Filler Extension Documentation",
+  "name": "excellent-data-filler-doc",
+  "version": "4.0.14",
+  "description": "Excellent Data Filler Extension Documentation",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -10,7 +10,7 @@
   "keywords": [
     "ctechhindi",
     "extension",
-    "excel-data-filler"
+    "excellent-data-filler"
   ],
   "author": "Jeevan Lal",
   "license": "MIT",

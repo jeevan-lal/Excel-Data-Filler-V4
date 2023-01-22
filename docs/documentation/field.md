@@ -21,12 +21,22 @@ After filling the form of the site, you have to insert the field of the form, th
 - [👩‍💻 Javascript Code](#execute-javascript)
 - [🚀 Function](/documentation/functions.html#predefined-function)
 - [🔑 Keys](/documentation/keys.html#special-key)
-- Fetch Text (Scraper Data)
-- Fetch HTML (Scraper Data)
-- Fetch Simple Table Data (Scraper Data)
 - Insert HTML
 - [URL Matching](#url-matching)
 - [URL Open](#url-open)
+- [Send Request](#send-request)
+- [Action In Seconds](#action-in-seconds)
+- **(Scraper Data)** Fetch Text
+- **(Scraper Data)** Fetch HTML
+- **(Scraper Data)** Fetch Simple Table Data
+- **(Google Form)** Choice (Radio)
+- **(Google Form)** Select
+- **(Google Form)** Multiple Checkboxes
+- **(Google Form)** Choice Linear Scale (Radio)
+- **(Google Form)** Multiple Choice Grid (Radio)
+- **(Google Form)** Multiple Checkboxes Grid (Checkbox)
+- **(Google Form)** Date/Time
+- **(Google Form)** Time/Duration
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
@@ -65,6 +75,16 @@ Check that the opened URL matches your URL. You can also add data from excel col
 If you are opening a url. You can also add data from an Excel column to Open URL. as per the image below. And you can also use [variable key](/documentation/keys.html#variable-keys) in it.
 
 <img src="/image/url-open-01.png" width="400" height="400" alt="URL Open">
+
+### Send Request
+
+By this you can send Request to Server and the response that comes can be saved in Excel Sheet.
+
+### Action In Seconds
+
+In this field you have to set the action and after how many seconds the action has to be run.
+
+After the field run, the given action will run as soon as the seconds expire. This field not waiting for the action to be completed, that is, the next field does not wait for its action to be completed, it gets run.
 
 ## Field Response Action
 

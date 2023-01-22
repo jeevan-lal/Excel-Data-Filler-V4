@@ -2,11 +2,11 @@
 layout: home
 title: Home
 hero:
-  name: Excel Data Filler
-  image: 
+  name: Excellent Data Filler
+  image:
     # src: /180x180.png
-  # text: 'Excel Data Filler'
-  tagline: Excel Data Filler is a form auto filler. With the help of which you can fill the form through excel template and it is all automatic.
+  # text: 'Excellent Data Filler'
+  tagline: Excellent Data Filler is a form auto filler. With the help of which you can fill the form through excel template and it is all automatic.
   actions:
     - theme: brand
       text: Get Started
