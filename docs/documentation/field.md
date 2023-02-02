@@ -107,3 +107,7 @@ After filling the entry, you can set what output comes from the server side afte
 ![Entry Response](/image/entry-response-01.png)
 
 If the response of the entry comes in the form of **javascript dialog** (alert), then you can also set how the response of the entry comes in the site or in the form of dialog and you can hide the dialog from [extension settings](/documentation/extension.html#settings).
+
+If your response message comes dynamic that means it changes every time and if we have to use any column data from excel in data message then you can use variable.
+
+![Entry Response](/image/dynamic-response-msg-01.png)
