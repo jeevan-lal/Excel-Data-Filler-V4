@@ -6,14 +6,14 @@ hero:
   image:
     # src: /180x180.png
   # text: 'Excellent Data Filler'
-  tagline: Excellent Data Filler is a form auto filler. With the help of which you can fill the form through excel template and it is all automatic.
+  tagline: Excellent Data Filler is a form auto filler and Scraper Data. With the help of which you can fill the form through excel template and it is all automatic.
   actions:
     - theme: brand
       text: Get Started
       link: /documentation/
     - theme: alt
-      text: Support
-      link: https://rzp.io/l/excel-data-filler-support
+      text: Changelog
+      link: https://efiller.netlify.app/changelog
 features:
   - icon: 🧬
     title: Auto Generate Excel Template

@@ -12,12 +12,13 @@ If you type `{` character in the Field Name field, then you will see the names o
 
 You can insert public special key but you cannot insert private special key. Private key only inserts extension.
 
-| Key Name                           | Key Description                                                                                            |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| **{FORM-FILLED}**                  | After filling the form successfully, what you have to do, you can do by this key.                          |
-| **{ENTRY-SAVED}**                  | After the form is successfully saved, what you have to do, you can do by this key.                         |
-| **{PRINT-ENTRY-ERRORS}**           | If you want to see the errors after filling the form, then this has to be inserted.                        |
-| **{FORM-SKIP-ELEMENT-NOT-EXISTS}** | If the target element is not found in the page then quits the current form and starts doing the next form. |
+| Key Name                           | Key Description                                                                                                                                                                  |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **{FORM-FILLED}**                  | After filling the form successfully, what you have to do, you can do by this key.                                                                                                |
+| **{ENTRY-SAVED}**                  | After the form is successfully saved, what you have to do, you can do by this key.                                                                                               |
+| **{PRINT-ENTRY-ERRORS}**           | If you want to see the errors after filling the form, then this has to be inserted.                                                                                              |
+| **{FORM-SKIP-ELEMENT-NOT-EXISTS}** | If the target element is not found in the page then quits the current form and starts doing the next form. **(Skip the current form if it not matches the additional settings)** |
+| **{FORM-SKIP-ELEMENT-EXISTS}**     | If the target element is found in the page then quits the current form and starts doing the next form. **(Skip the current form if it matches the additional settings)**         |
 
 ## Private Keys
 
