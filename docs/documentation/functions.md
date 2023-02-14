@@ -2,23 +2,45 @@
 
 You can use validation and condition while filling the form using predefined function. The predefined function can be added to the field of the form.
 
-## forceCheckElementExists
+## checkElementExists
 
-If you want to check an element whether the element is in the page or not, then you can use it, this function returns only if the element is in the page otherwise the entry will be stopped.
-
-| Params         | Required |
-| -------------- | -------- |
-| Selector Type  | true     |
-| Selector Query | true     |
-
-## forceCheckElementDestroy
-
-If you want to check an element whether the element is in the page or not, then you can use it, this function returns only if the element is not in the page. Until the element is destroyed from the page, further field work will not be done.
+If you want to check an element whether the element is in the page or not, then you can use it.
 
 | Params         | Required |
 | -------------- | -------- |
 | Selector Type  | true     |
 | Selector Query | true     |
+| Force Check    | false    |
+
+## checkElementDestroy
+
+If you want to check an element whether the element is in the page or not, then you can use it.
+
+| Params         | Required |
+| -------------- | -------- |
+| Selector Type  | true     |
+| Selector Query | true     |
+| Force Check    | false    |
+
+## checkElementVisible
+
+If you want to check an element whether the element is there in the page or not and the element is visible to us then you can use this.
+
+| Params         | Required |
+| -------------- | -------- |
+| Selector Type  | true     |
+| Selector Query | true     |
+| Force Check    | false    |
+
+## checkElementInvisible
+
+If you want to check an element whether the element is in the page or not and the element is invisible then you can use this.
+
+| Params         | Required |
+| -------------- | -------- |
+| Selector Type  | true     |
+| Selector Query | true     |
+| Force Check    | false    |
 
 ## cleanSessionStorage
 
@@ -32,6 +54,15 @@ This method removes all the Local Storage Object item for this domain.
 
 If you want to wait for some time, then you can wait by giving value in seconds through this function.
 
-| Params      | Required |
-| ----------- | -------- |
-| Field Value | true     |
+| Params      | Required | Description |
+| ----------- | -------- | ----------- |
+| Field Value | true     | Fill seconds |
+
+## removeElementAttribute
+
+If you want to remove the attribute of an element then you can use it.
+
+| Params      | Required | Description         |
+| ----------- | -------- | ------------------- |
+| Field Value | true     | Fill attribute name |
+| Force Check | false    |                     |

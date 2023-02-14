@@ -37,6 +37,16 @@ After filling the form of the site, you have to insert the field of the form, th
 - **(Google Form)** Multiple Checkboxes Grid (Checkbox)
 - **(Google Form)** Date/Time
 - **(Google Form)** Time/Duration
+- **(Microsoft Form)** Single Text
+- **(Microsoft Form)** Long Text
+- **(Microsoft Form)** Choice (Radio)
+- **(Microsoft Form)** Multiple Checkboxes
+- **(Microsoft Form)** Dropdown
+- **(Microsoft Form)** Date Picker
+- **(Microsoft Form)** Rating
+- **(Microsoft Form)** Sort List
+- **(Microsoft Form)** Matrix Radio Group
+- **(Microsoft Form)** Net Promoter Score (Linear Scale Radio)
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.

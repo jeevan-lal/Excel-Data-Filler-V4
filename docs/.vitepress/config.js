@@ -69,7 +69,7 @@ const sideBarList = [
     collapsible: true,
     items: [
       {
-        text: 'Insert Field',
+        text: 'Insert Field 🚀',
         link: '/documentation/field.html#form-field'
       },
       {
@@ -77,7 +77,7 @@ const sideBarList = [
         link: '/documentation/field.html#field-response-action'
       },
       {
-        text: 'Entry Response 🚀',
+        text: 'Entry Response',
         link: '/documentation/field.html#entry-response'
       }
     ]
@@ -97,12 +97,12 @@ const sideBarList = [
     collapsible: true,
     items: [
       {
-        text: 'forceCheckElementExists',
-        link: '/documentation/functions.html#forcecheckelementexists'
+        text: 'checkElementExists',
+        link: '/documentation/functions.html#checkelementexists'
       },
       {
-        text: 'forceCheckElementDestroy',
-        link: '/documentation/functions.html#forcecheckelementdestroy'
+        text: 'checkElementDestroy',
+        link: '/documentation/functions.html#checkelementdestroy'
       },
       {
         text: 'cleanSessionStorage',
@@ -111,10 +111,6 @@ const sideBarList = [
       {
         text: 'cleanLocalStorage',
         link: '/documentation/functions.html#cleanlocalstorage'
-      },
-      {
-        text: 'waitSeconds',
-        link: '/documentation/functions.html#waitseconds'
       }
     ]
   },

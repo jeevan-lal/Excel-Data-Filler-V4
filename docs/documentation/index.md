@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Everything to do data entry automatic, Auto Generate Excel, Auto Fill Form Fields, Auto Click Buttons, Run Custom Javascript, Store Entry Response
+Everything to do data entry automatic, Auto Generate Excel, Auto Fill Form Fields, Auto Click Buttons, Run Custom Javascript, Store Entry Response Also work on Google and Microsoft Forms. 
 
 ### Availability
 
