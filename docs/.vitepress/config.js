@@ -35,6 +35,10 @@ const sideBarList = [
       {
         text: 'Settings',
         link: '/documentation/extension.html#settings'
+      },
+      {
+        text: 'Log 🚀',
+        link: '/documentation/log.html#log'
       }
     ]
   },
@@ -129,10 +133,16 @@ const sideBarList = [
       {
         text: 'Private Key',
         link: '/documentation/keys.html#private-keys'
-      },
+      }
+    ]
+  },
+  {
+    text: 'Variable',
+    collapsible: true,
+    items: [
       {
-        text: 'Variable Key',
-        link: '/documentation/keys.html#variable-keys'
+        text: 'Variable 🚀',
+        link: '/documentation/variable.html#variable'
       }
     ]
   },
