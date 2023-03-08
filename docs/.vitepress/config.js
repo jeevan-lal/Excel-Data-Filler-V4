@@ -97,7 +97,7 @@ const sideBarList = [
     ]
   },
   {
-    text: 'Predefined Functions',
+    text: 'Predefined Functions 🚀',
     collapsible: true,
     items: [
       {

@@ -50,19 +50,105 @@ This method removes all the Session Storage Object item for this domain.
 
 This method removes all the Local Storage Object item for this domain.
 
+## insertClassName
+
+The `insertClassName` method adds one or more CSS class names to the element. This method does not remove existing class attributes, it only adds one or more class names to the class attribute.
+
+| Params         | Required | Description            | Value                   |
+| -------------- | -------- | ---------------------- | ----------------------- |
+| Selector Type  | true     | Element Selector Type  |                         |
+| Selector Query | true     | Element Selector Query |                         |
+| Field Value    | true     | Fill css class name    | bg-danger,text-white,.. |
+| Force Check    | false    |                        |                         |
+
+## removeClassName
+
+This `removeClassName` method removes one or more the element CSS class name.
+
+| Params         | Required | Description            | Value                   |
+| -------------- | -------- | ---------------------- | ----------------------- |
+| Selector Type  | true     | Element Selector Type  |                         |
+| Selector Query | true     | Element Selector Query |                         |
+| Field Value    | true     | Fill CSS class name    | bg-danger,text-white,.. |
+| Force Check    | false    |                        |                         |
+
+## insertCSSText
+
+The `insertCSSText` method sets the text of the element's inline style. This method removes the existing inline style.
+
+| Params         | Required | Description            | Value                       |
+| -------------- | -------- | ---------------------- | --------------------------- |
+| Selector Type  | true     | Element Selector Type  |                             |
+| Selector Query | true     | Element Selector Query |                             |
+| Field Value    | true     | Fill CSS style name    | float:left;margin-top:75px; |
+| Force Check    | false    |                        |                             |
+
+## removeCSSText
+
+The `removeCSSText` method remove the text of the element's inline style.
+
+| Params         | Required | Description            | Value               |
+| -------------- | -------- | ---------------------- | ------------------- |
+| Selector Type  | true     | Element Selector Type  |                     |
+| Selector Query | true     | Element Selector Query |                     |
+| Field Value    | true     | Fill CSS style name    | float,margin-top,.. |
+| Force Check    | false    |                        |                     |
+
+## insertElementAttribute
+
+The `insertElementAttribute` method sets the value of an attribute on the element. If the attribute already exists, the value is updated otherwise a new attribute is added with the specified **name** and **value**.
+
+| Params         | Required | Description                   | Value            |
+| -------------- | -------- | ----------------------------- | ---------------- |
+| Selector Type  | true     | Element Selector Type         |                  |
+| Selector Query | true     | Element Selector Query        |                  |
+| Field Value    | true     | Fill attribute name and value | attName,attValue |
+| Force Check    | false    |                               |                  |
+
+## removeElementAttribute
+
+If you want to remove the attribute of an element then you can use it one or more.
+
+| Params         | Required | Description            | Value                       |
+| -------------- | -------- | ---------------------- | --------------------------- |
+| Selector Type  | true     | Element Selector Type  |                             |
+| Selector Query | true     | Element Selector Query |                             |
+| Field Value    | true     | Fill attribute name    | attName,attName,attName,... |
+| Force Check    | false    |                        |                             |
+
+## scrollToTopLeft
+
+Use this method to scroll the page from top to left.
+
+## scrollToTopRight
+
+Use this method to scroll the page from top to right.
+
+## scrollToBottomLeft
+
+Use this method to scroll the page from bottom to left.
+
+## scrollToBottomRight
+
+Use this method to scroll the page from bottom to right.
+
+## scrollIntoView
+
+The `scrollIntoView` method scrolls an element into the visible area of the browser window.
+
+- https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+
+| Params         | Required | Description                                                                                  |
+| -------------- | -------- | -------------------------------------------------------------------------------------------- |
+| Selector Type  | true     | Element Selector Type                                                                        |
+| Selector Query | true     | Element Selector Query                                                                       |
+| Field Value    | true     | [Params](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView#parameters) |
+| Force Check    | false    |                                                                                              |
+
 ## waitSeconds
 
 If you want to wait for some time, then you can wait by giving value in seconds through this function.
 
-| Params      | Required | Description |
-| ----------- | -------- | ----------- |
+| Params      | Required | Description  |
+| ----------- | -------- | ------------ |
 | Field Value | true     | Fill seconds |
-
-## removeElementAttribute
-
-If you want to remove the attribute of an element then you can use it.
-
-| Params      | Required | Description         |
-| ----------- | -------- | ------------------- |
-| Field Value | true     | Fill attribute name |
-| Force Check | false    |                     |
