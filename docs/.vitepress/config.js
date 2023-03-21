@@ -147,6 +147,16 @@ const sideBarList = [
     ]
   },
   {
+    text: 'Locate Element',
+    collapsible: true,
+    items: [
+      {
+        text: 'Locate Element',
+        link: '/documentation/locate-element.html'
+      }
+    ]
+  },
+  {
     text: 'Testing',
     collapsible: true,
     items: [

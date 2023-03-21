@@ -12,16 +12,19 @@ To insert the site, you can also do it by right-clicking on the form with the mo
 - Click Save Button.
 - DONE 🎉
 
+<img src="/image/insert-site-manually-01.png" alt="Insert Site Manually">
+
 ## Insert Site Form
 
 First we have to [insert the site](#insert-site), after that by editing the site, you can also insert the form of the site, in this you can also insert **multiple** forms.
 
 - First [Insert Site](#insert-site).
 - Click the edit site button.
-- Open **Site Form Pages** tab and click insert form button and fill page **Form URL** and [**URL Match Type**](#form-url-match-types).
+- Open **Site Form Pages** tab and click insert form button and fill page **Page URL** and [**URL Match Type**](#form-url-match-types).
 - Click Save Button.
 - DONE 🎉
 
+<img src="/image/insert-site-form-manually-01.png" alt="Insert Site Manually">
 <br>
 
 #### Form URL Match Types

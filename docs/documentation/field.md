@@ -18,6 +18,7 @@ After filling the form of the site, you have to insert the field of the form, th
 - [Upload File](#upload-file)
 - Material Single Select
 - Material Multiple Select
+- Date Picker
 - [👩‍💻 Javascript Code](#execute-javascript)
 - [🚀 Function](/documentation/functions.html#predefined-function)
 - [🔑 Keys](/documentation/keys.html#special-key)
@@ -25,7 +26,8 @@ After filling the form of the site, you have to insert the field of the form, th
 - [URL Matching](#url-matching)
 - [URL Open](#url-open)
 - [Send Request](#send-request)
-- [Action In Seconds](#action-in-seconds)
+- [Timer Action](#timer-action)
+- String Matching
 - **(Scraper Data)** Fetch Text
 - **(Scraper Data)** Fetch HTML
 - **(Scraper Data)** Fetch Simple Table Data
@@ -90,7 +92,7 @@ If you are opening a url. You can also add data from an Excel column to Open URL
 
 By this you can send Request to Server and the response that comes can be saved in Excel Sheet.
 
-### Action In Seconds
+### Timer Action
 
 In this field you have to set the action and after how many seconds the action has to be run.
 

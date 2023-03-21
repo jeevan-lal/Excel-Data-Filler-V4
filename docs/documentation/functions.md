@@ -152,3 +152,14 @@ If you want to wait for some time, then you can wait by giving value in seconds 
 | Params      | Required | Description  |
 | ----------- | -------- | ------------ |
 | Field Value | true     | Fill seconds |
+
+## countTableRows
+
+You can check the rows of the table according to the condition.
+
+| Params         | Required | Description            | Value                            |
+| -------------- | -------- | ---------------------- | -------------------------------- |
+| Selector Type  | true     | Element Selector Type  |                                  |
+| Selector Query | true     | Element Selector Query |                                  |
+| Field Value    | true     | Fill css class name    | [=][2][true] <br> [<=][2][false] |
+| Force Check    | false    |                        |                                  |
