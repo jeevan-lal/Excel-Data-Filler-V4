@@ -68,7 +68,7 @@ DONE 🎉
 
 ## Insert Form Field
 
-After filling the form of the site, you have to insert the field of the form, this field is automatic fill. After entering the field name or field type, you can insert the field. [more details](/documentation/field.html#insert-field)
+After filling the form of the site, you have to insert the field of the form, this field is automatic fill. After entering the field name or field type, you can insert the field. [more details](/documentation/form-fields/field.html)
 
 ## Download Excel Template
 

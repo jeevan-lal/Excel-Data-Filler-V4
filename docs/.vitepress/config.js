@@ -37,7 +37,7 @@ const sideBarList = [
         link: '/documentation/extension.html#settings'
       },
       {
-        text: 'Log 🚀',
+        text: 'Log',
         link: '/documentation/log.html#log'
       }
     ]
@@ -74,15 +74,67 @@ const sideBarList = [
     items: [
       {
         text: 'Insert Field 🚀',
-        link: '/documentation/field.html#form-field'
+        link: '/documentation/form-fields/field.html'
       },
       {
         text: 'Field Response Action',
-        link: '/documentation/field.html#field-response-action'
+        link: '/documentation/form-fields/field-response-action.html'
+      }
+    ]
+  },
+  {
+    text: 'Field Types',
+    collapsible: true,
+    items: [
+      {
+        text: 'Upload File',
+        link: '/documentation/field-types/upload-file.html'
       },
       {
-        text: 'Entry Response',
-        link: '/documentation/field.html#entry-response'
+        text: 'Date Picker',
+        link: '/documentation/field-types/date-picker.html'
+      },
+      {
+        text: 'Javascript Code',
+        link: '/documentation/field-types/javascript-code.html'
+      },
+      {
+        text: 'URL Matching',
+        link: '/documentation/field-types/url-matching.html'
+      },
+      {
+        text: 'URL Open',
+        link: '/documentation/field-types/url-open.html'
+      },
+      {
+        text: 'Send Request',
+        link: '/documentation/field-types/send-request.html'
+      },
+      {
+        text: 'Timer Action',
+        link: '/documentation/field-types/timer-action.html'
+      },
+      {
+        text: 'String Matching',
+        link: '/documentation/field-types/string-matching.html'
+      }
+    ]
+  },
+  {
+    text: 'Form Response',
+    collapsible: true,
+    items: [
+      {
+        text: 'Form Response',
+        link: '/documentation/form-response/form-response.html'
+      },
+      {
+        text: 'Success Response',
+        link: '/documentation/form-response/form-success-response.html'
+      },
+      {
+        text: 'Error Response',
+        link: '/documentation/form-response/form-error-response.html'
       }
     ]
   },
@@ -141,13 +193,13 @@ const sideBarList = [
     collapsible: true,
     items: [
       {
-        text: 'Variable 🚀',
+        text: 'Variable',
         link: '/documentation/variable.html#variable'
       }
     ]
   },
   {
-    text: 'Locate Element',
+    text: 'Locate Element 🚀',
     collapsible: true,
     items: [
       {
