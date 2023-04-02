@@ -73,7 +73,7 @@ const sideBarList = [
     collapsible: true,
     items: [
       {
-        text: 'Insert Field 🚀',
+        text: 'Insert Field',
         link: '/documentation/form-fields/field.html'
       },
       {
@@ -199,7 +199,7 @@ const sideBarList = [
     ]
   },
   {
-    text: 'Locate Element 🚀',
+    text: 'Locate Element',
     collapsible: true,
     items: [
       {

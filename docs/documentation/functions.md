@@ -50,6 +50,44 @@ This method removes all the Session Storage Object item for this domain.
 
 This method removes all the Local Storage Object item for this domain.
 
+## countTableRows
+
+You can check the rows of the table according to the condition.
+
+| Params                   | Required | Description               | Value                            |
+| ------------------------ | -------- | ------------------------- | -------------------------------- |
+| Selector Type            | true     | Element Selector Type     |                                  |
+| Selector Query           | true     | Element Selector Query    |                                  |
+| Field Value              | true     | Fill Value with Condition | [=][2][true] <br> [<=][3][false] |
+| Wait Until Element Found | false    |                           |                                  |
+
+### Structure of Field Value
+
+- **[parameter-1][parameter-2][parameter-3]**
+- **[condition][number of rows][wait until row matches]**
+- **[string][number][boolean]**
+
+:::info
+Condition (>, <, =, <=, >=)
+:::
+
+## downloadFile
+
+Wait for download (file) to complete and perform given action when download is done, also you can attach this function with given button
+
+:::info
+Suppose you have a button when clicked, some file starts downloading and you want to wait until this downloading is done
+and perform some action after it.
+:::
+
+[Demo](https://formfiller.ctechhindi.in/example/example-24.php)
+
+| Params                   | Required | Description            | Value |
+| ------------------------ | -------- | ---------------------- | ----- |
+| Selector Type            | false    | Element Selector Type  |       |
+| Selector Query           | false    | Element Selector Query |       |
+| Trigger Javascript Event | true     | Enter Event Name       | click |
+
 ## insertClassName
 
 The `insertClassName` method adds one or more CSS class names to the element. This method does not remove existing class attributes, it only adds one or more class names to the class attribute.
@@ -152,22 +190,3 @@ If you want to wait for some time, then you can wait by giving value in seconds 
 | Params      | Required | Description  |
 | ----------- | -------- | ------------ |
 | Field Value | true     | Fill seconds |
-
-## countTableRows
-
-You can check the rows of the table according to the condition.
-
-| Params                   | Required | Description               | Value                            |
-| ------------------------ | -------- | ------------------------- | -------------------------------- |
-| Selector Type            | true     | Element Selector Type     |                                  |
-| Selector Query           | true     | Element Selector Query    |                                  |
-| Field Value              | true     | Fill Value with Condition | [=][2][true] <br> [<=][3][false] |
-| Wait Until Element Found | false    |                           |                                  |
-
-### Structure of Field Value
-
-> Condition (>, <, =, <=, >=)
-
-- **[parameter-1][parameter-2][parameter-3]**
-- **[condition][number of rows][wait until row matches]**
-- **[string][number][boolean]**

@@ -91,6 +91,18 @@ The data of these field types is downloaded from this option only.
 
 Customization site settings.
 
+### Ignore field default value
+
+If you have set the default value in the fields and if you do not want to fill the default value of all fields in the form of the site, then turn on this option.
+
+### When Excel Data not found or all rows has been marked as "Filled", Stop Form Filler
+
+You can enable this option if you want to turn off the filler when there is no Excel data in the extension and if all Excel entries have been completed.
+
+### Separator (Used to Split Value)
+
+You can set global separator for split value. Which will work in all fields.
+
 ### Excel Date Format
 
 If you are using date in excel sheet, then you can set the format of date in the site through this option.
