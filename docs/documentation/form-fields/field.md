@@ -28,6 +28,7 @@ After filling the form of the site, you have to insert the field of the form, th
 - [Send Request](/documentation/field-types/send-request.html)
 - [Timer Action](/documentation/field-types/timer-action.html)
 - [String Matching](/documentation/field-types/string-matching.html)
+- Copy
 - **(Scraper Data)** Fetch Text
 - **(Scraper Data)** Fetch HTML
 - **(Scraper Data)** Fetch Simple Table Data

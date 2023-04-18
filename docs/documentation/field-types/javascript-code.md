@@ -7,6 +7,15 @@ You can use Javascript code in any field or you can give any field only in **Jav
 localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", "1");
 ```
 
+## Global Variable
+
+Use `$ENTRY_DATA` variable in the javascript code for access entry and excel data.
+
+```js
+// Entry Data
+console.log($ENTRY_DATA)
+```
+
 ## Editor Shortcut keys
 
 - `F11` = Full Screen

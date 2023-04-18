@@ -183,6 +183,10 @@ The `scrollIntoView` method scrolls an element into the visible area of the brow
 | Field Value              | true     | [Params](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView#parameters) |
 | Wait Until Element Found | false    |                                                                                              |
 
+## playSound
+
+If you use this function, then the tab in which the sound is playing will not pause.
+
 ## waitSeconds
 
 If you want to wait for some time, then you can wait by giving value in seconds through this function.
