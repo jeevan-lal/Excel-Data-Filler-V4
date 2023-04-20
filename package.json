@@ -1,6 +1,6 @@
 {
   "name": "excellent-data-filler-doc",
-  "version": "4.2.0",
+  "version": "4.2.3",
   "description": "Excellent Data Filler Extension Documentation",
   "scripts": {
     "dev": "vitepress dev docs",

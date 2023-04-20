@@ -8,6 +8,8 @@ Following **Helper Program** needs to be downloaded and installed on your comput
 
 - [For Windows (Chrome Browser)](/install-edf-file-picker-chrome.exe)
 - [For Windows (Firefox Browser)](/install-edf-file-picker-firefox.exe)
+- [For Windows (Edge Browser)](/install-edf-file-picker-edge.exe)
+- [For Windows (Brave Browser)](/install-edf-file-picker-brave.exe)
 
 ## Field Options
 
