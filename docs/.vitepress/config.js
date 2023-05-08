@@ -149,7 +149,7 @@ const sideBarList = [
     ]
   },
   {
-    text: 'Predefined Functions 🚀',
+    text: 'Predefined Functions',
     collapsible: true,
     items: [
       {
@@ -179,7 +179,7 @@ const sideBarList = [
         link: '/documentation/keys.html#insert-key'
       },
       {
-        text: 'Public Key',
+        text: 'Public Key 🚀',
         link: '/documentation/keys.html#public-keys'
       },
       {
