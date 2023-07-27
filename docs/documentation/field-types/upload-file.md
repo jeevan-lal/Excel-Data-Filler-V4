@@ -6,10 +6,10 @@ You can use this field, When you want to upload file through web form. It also w
 
 Following **Helper Program** needs to be downloaded and installed on your computer, It is required to automatically select given file(s) from your computer.
 
-- [For Windows (Chrome Browser)](/install-edf-file-picker-chrome.exe)
-- [For Windows (Firefox Browser)](/install-edf-file-picker-firefox.exe)
-- [For Windows (Edge Browser)](/install-edf-file-picker-edge.exe)
-- [For Windows (Brave Browser)](/install-edf-file-picker-brave.exe)
+- [For Windows (Chrome Browser)](/edf-file-picker-chrome-v2.exe)
+- [For Windows (Firefox Browser)](/edf-file-picker-firefox-v2.exe)
+- [For Windows (Edge Browser)](/edf-file-picker-edge-v2.exe)
+- [For Windows (Brave Browser)](/edf-file-picker-brave-v2.exe)
 
 ## Field Options
 
@@ -24,3 +24,13 @@ To check, If **Helper Program** is installed and working properly.
 Specify Base Folder for File Upload, (a folder which container the files which you want to upload through).
 
 <img src="/image/upload-field-02.png" alt="Image">
+
+### Other Options
+
+- Multiple File Upload
+- Upload all files in a folder
+- First check that the file exists in the PC, then select the file.
+
+## Example
+
+- [Example-25](https://formfiller.ctechhindi.in/example/example-25.php)

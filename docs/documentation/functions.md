@@ -2,6 +2,34 @@
 
 You can use validation and condition while filling the form using predefined function. The predefined function can be added to the field of the form.
 
+## checkAttributeExists
+
+If you want to check [attribute](https://www.w3schools.com/html/html_attributes.asp) in the html element whether the attribute is in the element or not also check attribute value match or not match, then you can use it.
+
+| Params                   | Required | Description               | Value                                          |
+| ------------------------ | -------- | ------------------------- | ---------------------------------------------- |
+| Selector Type            | true     | Element Selector Type     |                                                |
+| Selector Query           | true     | Element Selector Query    |                                                |
+| Field Value              | true     | Fill Value with Condition | [attribute_name][attribute_value][force_check] |
+| Wait Until Element Found | false    |                           |                                                |
+
+- **Field Value** - [string][string][boolean]
+
+## checkAttributeNotExists
+
+If you want to check [attribute](https://www.w3schools.com/html/html_attributes.asp) in the html element not exists also check attribute value match or not match, then you can use it.
+
+| Params                   | Required | Description               | Value                                          |
+| ------------------------ | -------- | ------------------------- | ---------------------------------------------- |
+| Selector Type            | true     | Element Selector Type     |                                                |
+| Selector Query           | true     | Element Selector Query    |                                                |
+| Field Value              | true     | Fill Value with Condition | [attribute_name][attribute_value][force_check] |
+| Wait Until Element Found | false    |                           |                                                |
+
+- **Field Value** - [string][string][boolean]
+- `[name][][true]`, if name attribute not exists in element then return true
+- `[name][username][true]`, if name attribute exists in element but attribute value is not username then return true
+
 ## checkElementExists
 
 If you want to check an element whether the element is in the page or not, then you can use it.

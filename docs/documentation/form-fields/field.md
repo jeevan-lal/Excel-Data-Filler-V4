@@ -22,16 +22,20 @@ After filling the form of the site, you have to insert the field of the form, th
 - [👩‍💻 Javascript Code](/documentation/field-types/javascript-code.html)
 - [🚀 Function](/documentation/functions.html#predefined-function)
 - [🔑 Keys](/documentation/keys.html#special-key)
+- [🛑 Form Error Message](/documentation/field-types/form-error-message.html)
 - Insert HTML
 - [URL Matching](/documentation/field-types/url-matching.html)
 - [URL Open](/documentation/field-types/url-open.html)
 - [Send Request](/documentation/field-types/send-request.html)
 - [Timer Action](/documentation/field-types/timer-action.html)
 - [String Matching](/documentation/field-types/string-matching.html)
+- [String Manipulation](/documentation/field-types/string-manipulation.html)
 - Copy
 - **(Scraper Data)** Fetch Text
 - **(Scraper Data)** Fetch HTML
-- **(Scraper Data)** Fetch Simple Table Data
+- **(Scraper Data)** Scraping Data
+- **(Scraper Data)** Fetch Table Data in Scraper Data (Portrait)
+- **(Scraper Data)** Fetch Table Data in the Response Excel (Landscape)
 - **(Google Form)** Choice (Radio)
 - **(Google Form)** Select
 - **(Google Form)** Multiple Checkboxes
