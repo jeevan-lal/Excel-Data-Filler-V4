@@ -30,6 +30,27 @@ If you want to check [attribute](https://www.w3schools.com/html/html_attributes.
 - `[name][][true]`, if name attribute not exists in element then return true
 - `[name][username][true]`, if name attribute exists in element but attribute value is not username then return true
 
+## checkElementText
+
+To match the text of an element according to the condition, then you can use this function.
+
+| Params                   | Required | Description               | Value                                     |
+| ------------------------ | -------- | ------------------------- | ----------------------------------------- |
+| Selector Type            | true     | Element Selector Type     |                                           |
+| Selector Query           | true     | Element Selector Query    |                                           |
+| Field Value              | true     | Fill Value with Condition | [comparison_operators][text][force_check] |
+| Wait Until Element Found | false    |                           |                                           |
+
+### Structure of Field Value
+
+- **[parameter-1][parameter-2][parameter-3]**
+- **[comparison operators][text][wait until row matches]**
+- **[operator][string][boolean]**
+
+:::info
+[Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) (==, !=, >, <, <=, >=)
+:::
+
 ## checkElementExists
 
 If you want to check an element whether the element is in the page or not, then you can use it.
@@ -82,21 +103,21 @@ This method removes all the Local Storage Object item for this domain.
 
 You can check the rows of the table according to the condition.
 
-| Params                   | Required | Description               | Value                            |
-| ------------------------ | -------- | ------------------------- | -------------------------------- |
-| Selector Type            | true     | Element Selector Type     |                                  |
-| Selector Query           | true     | Element Selector Query    |                                  |
-| Field Value              | true     | Fill Value with Condition | [=][2][true] <br> [<=][3][false] |
-| Wait Until Element Found | false    |                           |                                  |
+| Params                   | Required | Description               | Value                             |
+| ------------------------ | -------- | ------------------------- | --------------------------------- |
+| Selector Type            | true     | Element Selector Type     |                                   |
+| Selector Query           | true     | Element Selector Query    |                                   |
+| Field Value              | true     | Fill Value with Condition | [==][2][true] <br> [<=][3][false] |
+| Wait Until Element Found | false    |                           |                                   |
 
 ### Structure of Field Value
 
 - **[parameter-1][parameter-2][parameter-3]**
-- **[condition][number of rows][wait until row matches]**
+- **[comparison operators][number of rows][wait until row matches]**
 - **[string][number][boolean]**
 
 :::info
-Condition (>, <, =, <=, >=)
+[Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) (>, <, ==, <=, >=)
 :::
 
 ## downloadFile

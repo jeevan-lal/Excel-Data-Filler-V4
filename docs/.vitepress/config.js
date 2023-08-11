@@ -69,11 +69,11 @@ const sideBarList = [
     ]
   },
   {
-    text: 'Form Field',
+    text: 'Form Field 🚀',
     collapsible: true,
     items: [
       {
-        text: 'Insert Field 🚀',
+        text: 'Insert Field',
         link: '/documentation/form-fields/field.html'
       },
       {
@@ -87,7 +87,7 @@ const sideBarList = [
     collapsible: true,
     items: [
       {
-        text: 'Upload File 🚀',
+        text: 'Upload File',
         link: '/documentation/field-types/upload-file.html'
       },
       {
@@ -119,7 +119,7 @@ const sideBarList = [
         link: '/documentation/field-types/string-matching.html'
       },
       {
-        text: 'String Manipulation 🚀',
+        text: 'String Manipulation',
         link: '/documentation/field-types/string-manipulation.html'
       }
     ]
@@ -153,7 +153,7 @@ const sideBarList = [
     ]
   },
   {
-    text: 'Predefined Functions',
+    text: 'Predefined Functions 🚀',
     collapsible: true,
     items: [
       {

@@ -37,6 +37,10 @@ You can see the response while filling the form by turning on this option. By go
 - If you want to see the response color in the field while filling the form, then turn it on.
 - If you want to see Entry's status bar, then turn it on.
 
+### [Microsoft Form Filler Settings](https://efiller.netlify.app/settings#microsoft-form-filler-settings)
+
+Microsoft Form Filler Settings.
+
 ### [Export/Import Settings](https://efiller.netlify.app/settings#export-import-settings)
 
 - Import Site Data

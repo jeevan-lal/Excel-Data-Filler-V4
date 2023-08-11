@@ -34,6 +34,7 @@ After filling the form of the site, you have to insert the field of the form, th
 - **(Scraper Data)** Fetch Text
 - **(Scraper Data)** Fetch HTML
 - **(Scraper Data)** Scraping Data
+- **(Scraper Data)** Scraping Page URL
 - **(Scraper Data)** Fetch Table Data in Scraper Data (Portrait)
 - **(Scraper Data)** Fetch Table Data in the Response Excel (Landscape)
 - **(Google Form)** Choice (Radio)
