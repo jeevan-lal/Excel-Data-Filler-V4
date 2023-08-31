@@ -6,10 +6,7 @@ You can use this field, When you want to upload file through web form. It also w
 
 Following **Helper Program** needs to be downloaded and installed on your computer, It is required to automatically select given file(s) from your computer.
 
-- [For Windows (Chrome Browser)](/edf-file-picker-chrome-v2.exe)
-- [For Windows (Firefox Browser)](/edf-file-picker-firefox-v2.exe)
-- [For Windows (Edge Browser)](/edf-file-picker-edge-v2.exe)
-- [For Windows (Brave Browser)](/edf-file-picker-brave-v2.exe)
+- [For Windows](/edf-extension-helper-installer-v1.exe)
 
 ## Field Options
 
