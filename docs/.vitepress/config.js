@@ -121,6 +121,10 @@ const sideBarList = [
       {
         text: 'String Manipulation',
         link: '/documentation/field-types/string-manipulation.html'
+      },
+      {
+        text: 'Save as PDF',
+        link: '/documentation/field-types/save-as-pdf.html'
       }
     ]
   },

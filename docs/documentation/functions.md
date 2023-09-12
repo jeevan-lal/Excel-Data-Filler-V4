@@ -2,6 +2,12 @@
 
 You can use validation and condition while filling the form using predefined function. The predefined function can be added to the field of the form.
 
+You can also use [variables](variable.html) in the value of predefined functions. like this
+
+```
+{{excel_column_name}}
+```
+
 ## checkAttributeExists
 
 If you want to check [attribute](https://www.w3schools.com/html/html_attributes.asp) in the html element whether the attribute is in the element or not also check attribute value match or not match, then you can use it.
@@ -32,7 +38,7 @@ If you want to check [attribute](https://www.w3schools.com/html/html_attributes.
 
 ## checkElementText
 
-To match the text of an element according to the condition, then you can use this function.
+To match the **text/value** of an element according to the condition, then you can use this function.
 
 | Params                   | Required | Description               | Value                                     |
 | ------------------------ | -------- | ------------------------- | ----------------------------------------- |

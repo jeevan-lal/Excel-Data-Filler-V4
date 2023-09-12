@@ -31,6 +31,8 @@ After filling the form of the site, you have to insert the field of the form, th
 - [String Matching](/documentation/field-types/string-matching.html)
 - [String Manipulation](/documentation/field-types/string-manipulation.html)
 - Copy
+- [Save as PDF](/documentation/field-types/save-as-pdf.html)
+- [Web Request Completed](/documentation/field-types/web-request-completed.html)
 - **(Scraper Data)** Fetch Text
 - **(Scraper Data)** Fetch HTML
 - **(Scraper Data)** Scraping Data
@@ -55,8 +57,16 @@ After filling the form of the site, you have to insert the field of the form, th
 - **(Microsoft Form)** Sort List
 - **(Microsoft Form)** Matrix Radio Group
 - **(Microsoft Form)** Net Promoter Score (Linear Scale Radio)
+- **(Program Helper)** [X-Focus Application Window](/documentation/field-types/program-helper.html#x-focus-application-window)
+- **(Program Helper)** [X-Click (Space Key)](/documentation/field-types/program-helper.html#x-click-space-key)
+- **(Program Helper)** [X-Paste Text](/documentation/field-types/program-helper.html#x-paste-text)
+- **(Program Helper)** [X-WinAlwaysOnTop (Activate)](/documentation/field-types/program-helper.html#x-winalwaysontop-activate)
+- **(Program Helper)** [X-WinAlwaysOnTop (Deactivate)](/documentation/field-types/program-helper.html#x-winalwaysontop-deactivate)
+- **(Program Helper)** [X-Send](/documentation/field-types/program-helper.html#x-send)
+- **(Program Helper)** [X-MouseClick](/documentation/field-types/program-helper.html#x-mouseclick)
+- **(Program Helper)** [X-ControlClick](/documentation/field-types/program-helper.html#x-controlclick)
+- **(Program Helper)** [X-ImageSearch](/documentation/field-types/program-helper.html#x-imagesearch)
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
 :::
-
