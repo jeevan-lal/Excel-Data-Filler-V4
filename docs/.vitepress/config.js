@@ -4,7 +4,7 @@ import { version } from '../../package.json';
 const sideBarList = [
   {
     text: 'Get Started',
-    collapsible: true,
+    collapsed: false,
     items: [
       {
         text: 'Introduction',
@@ -26,7 +26,7 @@ const sideBarList = [
   },
   {
     text: 'Extension',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Icon',
@@ -44,7 +44,7 @@ const sideBarList = [
   },
   {
     text: 'Site',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Insert Site',
@@ -70,7 +70,7 @@ const sideBarList = [
   },
   {
     text: 'Form Field 🚀',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Insert Field',
@@ -84,7 +84,7 @@ const sideBarList = [
   },
   {
     text: 'Field Types',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Upload File',
@@ -130,7 +130,7 @@ const sideBarList = [
   },
   {
     text: 'Form Response',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Form Response',
@@ -148,7 +148,7 @@ const sideBarList = [
   },
   {
     text: 'Segment',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Information',
@@ -158,7 +158,7 @@ const sideBarList = [
   },
   {
     text: 'Predefined Functions 🚀',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'checkAttributeExists',
@@ -180,7 +180,7 @@ const sideBarList = [
   },
   {
     text: 'Special Keys',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Insert Key',
@@ -198,7 +198,7 @@ const sideBarList = [
   },
   {
     text: 'Variable',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Variable',
@@ -208,7 +208,7 @@ const sideBarList = [
   },
   {
     text: 'Locate Element',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Locate Element',
@@ -218,7 +218,7 @@ const sideBarList = [
   },
   {
     text: 'Testing',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: 'Site',
@@ -249,6 +249,9 @@ export default {
     ['meta', { name: 'og:image:type', content: 'image/png' }],
   ],
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     nextLinks: true,
     prevLinks: true,
     // logo: '/32x32.png',

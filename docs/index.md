@@ -14,6 +14,9 @@ hero:
     - theme: alt
       text: Changelog
       link: https://efiller.netlify.app/changelog
+    - theme: alt
+      text: Download
+      link: /documentation/#download-extension
 features:
   - icon: 🧬
     title: Auto Generate Excel Template
