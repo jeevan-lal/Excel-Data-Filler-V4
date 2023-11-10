@@ -148,6 +148,27 @@
           </table>
         </td>
       </tr>
+      <tr>
+        <td>
+          <code><strong>parent, position</strong></code>
+        </td>
+        <td>
+          <table style="width: max-content;">
+            <thead>
+              <tr>
+                <th>XPath</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>//td[text() =' SHG']/parent::*/td[position()=6]/a</strong> <br />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
     </tbody>
   </table>
 </template>

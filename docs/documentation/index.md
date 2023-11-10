@@ -11,9 +11,9 @@ Everything to do data entry automatic, Auto Generate Excel, Auto Fill Form Field
 
 Excellent Data Filler extension is available for all major browsers.
 
-| ![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png) |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| Latest ✔                                                                                            | Latest ✔                                                                                               | Latest ✔                                                                                         | Latest ✔                                                                                      | 👩‍🏫                                                                                                  |
+| ![Chrome](/logo/icons8-chrome-64.svg) | ![Firefox](/logo/icons8-firefox-48.png) | ![Opera](/logo/icons8-opera-48.svg) | ![Edge](/logo/icons8-edge-48.svg) | ![Safari](/logo/icons8-safari-48.svg) |
+| ------------------------------------- | --------------------------------------- | ----------------------------------- | --------------------------------- | ------------------------------------- |
+| Latest ✔                              | Latest ✔                                | Latest ✔                            | Latest ✔                          | 👩‍🏫                                    |
 
 ### Download Extension
 

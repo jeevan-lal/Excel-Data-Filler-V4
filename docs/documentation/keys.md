@@ -29,7 +29,7 @@ You can insert public special key but you cannot insert private special key. Pri
 | **{ENTRY-COMPLETED-TIME}**                   | Entry completion time.      |
 | **{FORM-01-SUCCESS}, {FORM-02-SUCCESS}, ..** | Store entry success message |
 | **{FORM-01-ERROR}, {FORM-02-ERROR}, ..**     | Store entry error message   |
-
+| **{ROW-TYPE-FIELD-DUPLICATE-VALUES}**        |                             |
 
 ## Video Tutorial
 

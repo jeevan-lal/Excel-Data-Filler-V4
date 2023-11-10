@@ -39,6 +39,7 @@ After filling the form of the site, you have to insert the field of the form, th
 - **(Scraper Data)** Scraping Page URL
 - **(Scraper Data)** Fetch Table Data in Scraper Data (Portrait)
 - **(Scraper Data)** Fetch Table Data in the Response Excel (Landscape)
+- **(Scraper Data)** [Fetch Header-Value Data](/documentation/field-types/scraper-data.html#fetch-header-value-data)
 - **(Google Form)** Choice (Radio)
 - **(Google Form)** Select
 - **(Google Form)** Multiple Checkboxes
@@ -66,6 +67,8 @@ After filling the form of the site, you have to insert the field of the form, th
 - **(Program Helper)** [X-MouseClick](/documentation/field-types/program-helper.html#x-mouseclick)
 - **(Program Helper)** [X-ControlClick](/documentation/field-types/program-helper.html#x-controlclick)
 - **(Program Helper)** [X-ImageSearch](/documentation/field-types/program-helper.html#x-imagesearch)
+- **(Browser Actions)** [Close Browser Tab](/documentation/field-types/browser-actions.html#close-browser-tab)
+
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.

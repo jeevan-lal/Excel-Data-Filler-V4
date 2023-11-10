@@ -50,3 +50,19 @@ If the date is not shown in the field after clicking on the date picker field, t
 If calendar do not open when we click on input field because it is attached to a button, then use this option.
 
 <img src="/image/date-picker-07.gif" width="400" alt="Gif">
+
+### Set the wait time between Previous/Next month Action
+
+### After picking the date, press the button to set the date in form
+
+## Supported
+
+- [flatpickr](https://github.com/flatpickr/flatpickr)
+
+::: info
+If using `flatpickr` date picker then set only one js event `change` in the field settings.
+:::
+
+- [date-picker](https://github.com/duetds/date-picker)
+- [react-multi-date-picker](https://github.com/shahabyazdi/react-multi-date-picker)
+- more..
