@@ -35,7 +35,16 @@ You can see the response while filling the form by turning on this option. By go
 ### [Form Filler Settings](https://efiller.netlify.app/settings#form-filler-settings)
 
 - If you want to see the response color in the field while filling the form, then turn it on.
-- If you want to see Entry's status bar, then turn it on.
+
+#### Status Bar
+
+If you want to see Entry's status bar, then turn it on.
+
+<img src="/image/status-bar-01.png" alt="Image">
+
+:::info
+If click `Mark as Saved` button on the status bar then execute `{MARK AS SAVED}` segment. If segment exists then execute.
+:::
 
 ### [Microsoft Form Filler Settings](https://efiller.netlify.app/settings#microsoft-form-filler-settings)
 

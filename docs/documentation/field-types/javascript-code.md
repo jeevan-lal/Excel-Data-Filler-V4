@@ -9,11 +9,37 @@ localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", "1");
 
 ## Global Variable
 
-Use `$ENTRY_DATA` variable in the javascript code for access entry and excel data.
+Use `$entry` variable in the javascript code for access entry and excel data.
 
 ```js
-// Entry Data
-console.log($ENTRY_DATA)
+// ACCESS ENTRY DATA [OBJECT]
+console.log($entry);
+
+// PREDEFINE FUNCTIONS [OBJECT]
+console.log($fns);
+
+// [1]: STORE DATA IN THE SCRAPER EXCEL (PORTRAIT MODE)
+// DATA TYPE: ARRAY
+var response = { storeDataInScraper: [] };
+
+// [2]: STORE DATA IN THE CURRENT ENTRY EXCEL ROW (LANDSCAPE MODE)
+// DATA TYPE: OBJECT AND ALL OBJECT KEY NAME IS UNIQUE
+var response = { storeDataInEntry: {} };
+
+// [3]: SKIP CURRENT FORM
+var response = { skipForm: true };
+
+// [4]: SKIP SEGMENT
+var response = { skipSegment: true };
+
+// [5]: STOP LOOP
+var response = { loopStop: true };
+
+// [6]: RETURN ERROR RESPONSE (BY DEFAULT SET SUCCESS RESPONSE)
+var response = { status: false, message: "Error Message" };
+
+// RETURN RESPONSE
+localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", JSON.stringify(response));
 ```
 
 ## Editor Shortcut keys
