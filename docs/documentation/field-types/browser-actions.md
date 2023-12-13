@@ -1,3 +1,8 @@
+<script setup>
+import CloseBrowserTabDetailsTable from './../template/CloseBrowserTabDetailsTable.vue'
+import SetDownloadItemFileNameDetailsTable from './../template/SetDownloadItemFileNameDetailsTable.vue'
+</script>
+
 # Browser Action
 
 Browser actions.
@@ -6,8 +11,10 @@ Browser actions.
 
 This field type can be used to **close** the browser tab.
 
-### Field Value
+<CloseBrowserTabDetailsTable/>
 
-- if field value is **empty** then close active tab.
-- if field value is **false** then skip close tab action.
-- You can also set the **Tab Id** in the field value.
+## Set Download Item File Name
+
+If you want to change the name of the file being downloaded in the browser, then use it before clicking on the download button.
+
+<SetDownloadItemFileNameDetailsTable/>

@@ -1,6 +1,6 @@
 # URL Matching
 
-Check that the opened URL matches your URL. You can also add data from excel column in URL. as per the image below. And you can also use [variable](/documentation/variable.html#page-location-variable) in it.
+Check that the opened URL matches your URL. You can also add data from excel column in URL. as per the image below. And you can also use [variable](/documentation/variable#page-location-variable) in it.
 
 <br>
 <img src="/image/url-matching-01.png" width="400" height="400" alt="URL Matching">

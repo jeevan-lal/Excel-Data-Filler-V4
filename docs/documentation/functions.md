@@ -2,7 +2,7 @@
 
 You can use validation and condition while filling the form using predefined function. The predefined function can be added to the field of the form.
 
-You can also use [variables](variable.html) in the value of predefined functions. like this
+You can also use [variables](variable) in the value of predefined functions. like this
 
 ```
 {{excel_column_name}}
@@ -123,7 +123,7 @@ You can check the rows of the table according to the condition.
 - **[string][number][boolean]**
 
 :::info
-[Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) (>, <, ==, <=, >=)
+[Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) (>, <, ==, !=, <=, >=)
 :::
 
 ## downloadFile

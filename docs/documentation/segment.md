@@ -6,4 +6,4 @@ Segment is a collection of form fields which is a part of dynamic form, It's str
 
 ## Execute Segment
 
-You can get the segment executed through [Field Response Action](form-fields/field-response-action.html).
+You can get the segment executed through [Field Response Action](form-fields/field-response-action).

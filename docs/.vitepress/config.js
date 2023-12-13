@@ -30,15 +30,25 @@ const sideBarList = [
     items: [
       {
         text: 'Icon',
-        link: '/documentation/extension.html#icon'
+        link: '/documentation/extension#icon'
       },
       {
         text: 'Settings',
-        link: '/documentation/extension.html#settings'
+        link: '/documentation/extension#settings'
       },
       {
         text: 'Log',
-        link: '/documentation/log.html#log'
+        link: '/documentation/log#log'
+      }
+    ]
+  },
+  {
+    text: 'Structure',
+    collapsed: true,
+    items: [
+      {
+        text: 'Overview',
+        link: '/documentation/structure'
       }
     ]
   },
@@ -47,38 +57,56 @@ const sideBarList = [
     collapsed: true,
     items: [
       {
-        text: 'Insert Site',
-        link: '/documentation/site.html#site'
+        text: 'Overview',
+        link: '/documentation/site/site'
       },
       {
-        text: 'Insert Site Form',
-        link: '/documentation/site.html#insert-site-form'
+        text: 'Insert Site',
+        link: '/documentation/site/site#insert-site'
+      },
+      {
+        text: 'Excel Template',
+        link: '/documentation/site/site-excel-template'
       },
       {
         text: 'Scraper Data',
-        link: '/documentation/site.html#scraper-data'
-      },
-      {
-        text: 'Download Excel',
-        link: '/documentation/site.html#download-excel-template'
+        link: '/documentation/site/site-scraper-data'
       },
       {
         text: 'Site Settings',
-        link: '/documentation/site.html#settings'
+        link: '/documentation/site/site-settings'
+      },
+      {
+        text: 'Import/Export',
+        link: '/documentation/site/site-settings#export-site-data'
       }
     ]
   },
   {
-    text: 'Form Field 🚀',
+    text: 'Form',
+    collapsed: true,
+    items: [
+      {
+        text: 'Overview',
+        link: '/documentation/form/form'
+      },
+      {
+        text: 'Insert Form',
+        link: '/documentation/form/form#insert-site-form'
+      }
+    ]
+  },
+  {
+    text: 'Form Field',
     collapsed: true,
     items: [
       {
         text: 'Insert Field',
-        link: '/documentation/form-fields/field.html'
+        link: '/documentation/form-fields/field'
       },
       {
         text: 'Field Response Action',
-        link: '/documentation/form-fields/field-response-action.html'
+        link: '/documentation/form-fields/field-response-action'
       }
     ]
   },
@@ -88,43 +116,43 @@ const sideBarList = [
     items: [
       {
         text: 'Upload File',
-        link: '/documentation/field-types/upload-file.html'
+        link: '/documentation/field-types/upload-file'
       },
       {
         text: 'Date Picker',
-        link: '/documentation/field-types/date-picker.html'
+        link: '/documentation/field-types/date-picker'
       },
       {
         text: 'Javascript Code',
-        link: '/documentation/field-types/javascript-code.html'
+        link: '/documentation/field-types/javascript-code'
       },
       {
         text: 'URL Matching',
-        link: '/documentation/field-types/url-matching.html'
+        link: '/documentation/field-types/url-matching'
       },
       {
         text: 'URL Open',
-        link: '/documentation/field-types/url-open.html'
+        link: '/documentation/field-types/url-open'
       },
       {
         text: 'Send Request',
-        link: '/documentation/field-types/send-request.html'
+        link: '/documentation/field-types/send-request'
       },
       {
         text: 'Timer Action',
-        link: '/documentation/field-types/timer-action.html'
+        link: '/documentation/field-types/timer-action'
       },
       {
         text: 'String Matching',
-        link: '/documentation/field-types/string-matching.html'
+        link: '/documentation/field-types/string-matching'
       },
       {
         text: 'String Manipulation',
-        link: '/documentation/field-types/string-manipulation.html'
+        link: '/documentation/field-types/string-manipulation'
       },
       {
         text: 'Save as PDF',
-        link: '/documentation/field-types/save-as-pdf.html'
+        link: '/documentation/field-types/save-as-pdf'
       }
     ]
   },
@@ -134,15 +162,15 @@ const sideBarList = [
     items: [
       {
         text: 'Form Response',
-        link: '/documentation/form-response/form-response.html'
+        link: '/documentation/form-response/form-response'
       },
       {
         text: 'Success Response',
-        link: '/documentation/form-response/form-success-response.html'
+        link: '/documentation/form-response/form-success-response'
       },
       {
         text: 'Error Response',
-        link: '/documentation/form-response/form-error-response.html'
+        link: '/documentation/form-response/form-error-response'
       }
     ]
   },
@@ -152,29 +180,29 @@ const sideBarList = [
     items: [
       {
         text: 'Information',
-        link: '/documentation/segment.html'
+        link: '/documentation/segment'
       }
     ]
   },
   {
-    text: 'Predefined Functions 🚀',
+    text: 'Predefined Functions',
     collapsed: true,
     items: [
       {
         text: 'checkAttributeExists',
-        link: '/documentation/functions.html#checkattributeexists'
+        link: '/documentation/functions#checkattributeexists'
       },
       {
         text: 'checkElementExists',
-        link: '/documentation/functions.html#checkelementexists'
+        link: '/documentation/functions#checkelementexists'
       },
       {
         text: 'cleanSessionStorage',
-        link: '/documentation/functions.html#cleansessionstorage'
+        link: '/documentation/functions#cleansessionstorage'
       },
       {
         text: 'cleanLocalStorage',
-        link: '/documentation/functions.html#cleanlocalstorage'
+        link: '/documentation/functions#cleanlocalstorage'
       }
     ]
   },
@@ -184,15 +212,15 @@ const sideBarList = [
     items: [
       {
         text: 'Insert Key',
-        link: '/documentation/keys.html#insert-key'
+        link: '/documentation/keys#insert-key'
       },
       {
         text: 'Public Key',
-        link: '/documentation/keys.html#public-keys'
+        link: '/documentation/keys#public-keys'
       },
       {
         text: 'Private Key',
-        link: '/documentation/keys.html#private-keys'
+        link: '/documentation/keys#private-keys'
       }
     ]
   },
@@ -202,7 +230,7 @@ const sideBarList = [
     items: [
       {
         text: 'Variable',
-        link: '/documentation/variable.html#variable'
+        link: '/documentation/variable#variable'
       }
     ]
   },
@@ -212,7 +240,7 @@ const sideBarList = [
     items: [
       {
         text: 'Locate Element',
-        link: '/documentation/locate-element.html'
+        link: '/documentation/locate-element'
       }
     ]
   },
@@ -222,7 +250,7 @@ const sideBarList = [
     items: [
       {
         text: 'Site',
-        link: '/documentation/testing-site.html'
+        link: '/documentation/testing-site'
       }
     ]
   }
@@ -294,4 +322,6 @@ export default {
       text: 'Edit this page on GitHub'
     },
   },
+  vite: {
+  }
 }

@@ -35,7 +35,7 @@ It is about, How server returns Error Response to User.
 
 #### Matching Message In Alert Message
 
-If the response of the entry comes in the form of **javascript dialog** (Browser Alert), you can hide the dialog from [extension settings](/documentation/extension.html#hide-javascript-dialog) and fetch the response to match against given **Enter Error Message**
+If the response of the entry comes in the form of **javascript dialog** (Browser Alert), you can hide the dialog from [extension settings](/documentation/extension#hide-javascript-dialog) and fetch the response to match against given **Enter Error Message**
 
 ### Enter Error Message
 
