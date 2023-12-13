@@ -1,6 +1,6 @@
 # Site
 
-**Site** is a collection of [forms](/documentation/form) in which multiple forms can be used.
+**Site** is a collection of [forms](/documentation/form/form) in which multiple forms can be used.
 
 <img src="/image/site-01.png" alt="Site">
 
