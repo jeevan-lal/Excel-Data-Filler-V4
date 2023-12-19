@@ -105,8 +105,13 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 
 ### Browser Actions
 
+- [Capture Tab](/documentation/field-types/browser-actions#capture-tab)
+- [Go Back to Previous Page](/documentation/field-types/browser-actions#go-back-to-previous-page)
+- [Go Forward to Next Page](/documentation/field-types/browser-actions#go-forward-to-next-page)
+- [Reload Tab](/documentation/field-types/browser-actions#reload-tab)
 - [Close Browser Tab](/documentation/field-types/browser-actions#close-browser-tab)
 - [Set Download Item File Name](/documentation/field-types/browser-actions#set-download-item-file-name)
+- [Insert CSS](/documentation/field-types/browser-actions#insert-css)
 
 ### Javascript Dialog
 
@@ -128,3 +133,4 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 - [Save as PDF](/documentation/field-types/save-as-pdf)
 - Page Loading
 - Toast Notification
+- [Target Element For Print](/documentation/field-types/target-element-for-print)

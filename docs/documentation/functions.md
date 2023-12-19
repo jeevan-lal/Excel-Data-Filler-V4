@@ -165,6 +165,10 @@ This `removeClassName` method removes one or more the element CSS class name.
 | Field Value              | true     | Fill CSS class name    | bg-danger,text-white,.. |
 | Wait Until Element Found | false    |                        |                         |
 
+:::info
+If you want to remove all element classes then set value `remove-all-classes`.
+:::
+
 ## insertCSSText
 
 The `insertCSSText` method sets the text of the element's inline style. This method removes the existing inline style.
@@ -186,6 +190,10 @@ The `removeCSSText` method remove the text of the element's inline style.
 | Selector Query           | true     | Element Selector Query |                     |
 | Field Value              | true     | Fill CSS style name    | float,margin-top,.. |
 | Wait Until Element Found | false    |                        |                     |
+
+:::info
+If you want to remove all element style then set value `remove-all-css-text`.
+:::
 
 ## insertElementAttribute
 

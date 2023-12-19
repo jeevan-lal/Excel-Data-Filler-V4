@@ -6,7 +6,7 @@ To use these fields, you will first have to install the helper program in the OS
 
 Following **Helper Program** needs to be downloaded and installed on your computer, It is required to automatically select given file(s) from your computer.
 
-- [For Windows](/edf-extension-helper-installer-v1.2.exe)
+- [For Windows](/edf-extension-helper-installer-v1.3.exe)
 
 ## Fields
 
