@@ -18,6 +18,7 @@ After filling the form of the site, you have to insert the field of the form, th
 - [Program Helper - Advance](#program-helper-advance)
 - [Browser Actions](#browser-actions)
 - [Javascript Dialog](#javascript-dialog)
+- [Javascript Events](#javascript-events)
 - [Others](#others)
 
 ### Basic
@@ -36,7 +37,8 @@ After filling the form of the site, you have to insert the field of the form, th
 - Material Single Select
 - Material Multiple Select
 - [Date Picker](/documentation/field-types/date-picker)
-- Loop
+- [Loop](/documentation/field-types/loop)
+- Element Change
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
@@ -109,15 +111,27 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 - [Go Back to Previous Page](/documentation/field-types/browser-actions#go-back-to-previous-page)
 - [Go Forward to Next Page](/documentation/field-types/browser-actions#go-forward-to-next-page)
 - [Reload Tab](/documentation/field-types/browser-actions#reload-tab)
+- [Focus Tab](/documentation/field-types/browser-actions#focus-tab)
+- [Focus Window](/documentation/field-types/browser-actions#focus-window)
 - [Close Browser Tab](/documentation/field-types/browser-actions#close-browser-tab)
+- [Close Browser Window](/documentation/field-types/browser-actions#close-browser-window)
 - [Set Download Item File Name](/documentation/field-types/browser-actions#set-download-item-file-name)
 - [Insert CSS](/documentation/field-types/browser-actions#insert-css)
+- [Set Local Data](/documentation/field-types/browser-actions#set-local-data)
+- [Get Local Data](/documentation/field-types/browser-actions#get-local-data)
+- [Remove Local Data](/documentation/field-types/browser-actions#remove-local-data)
 
 ### Javascript Dialog
 
 - Alert Dialog
 - Confirm Dialog
 - Prompt Dialog
+- Hide Alert Dialog
+- Get Alert Dialog Message
+
+### Javascript Events
+
+- [Keyboard Event](/documentation/field-types/javascript-events#keyboard-event)
 
 ### Others
 
@@ -129,7 +143,7 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 - [Timer Action](/documentation/field-types/timer-action)
 - [String Matching](/documentation/field-types/string-matching)
 - [String Manipulation](/documentation/field-types/string-manipulation)
-- Copy
+- [Copy](/documentation/field-types/copy)
 - [Save as PDF](/documentation/field-types/save-as-pdf)
 - Page Loading
 - Toast Notification

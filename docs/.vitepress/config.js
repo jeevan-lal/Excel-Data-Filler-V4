@@ -105,6 +105,10 @@ const sideBarList = [
         link: '/documentation/form-fields/field'
       },
       {
+        text: 'Field Settings',
+        link: '/documentation/form-fields/field-settings'
+      },
+      {
         text: 'Field Response Action',
         link: '/documentation/form-fields/field-response-action'
       }

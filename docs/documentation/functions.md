@@ -50,12 +50,38 @@ To match the **text/value** of an element according to the condition, then you c
 ### Structure of Field Value
 
 - **[parameter-1][parameter-2][parameter-3]**
-- **[comparison operators][text][wait until row matches]**
+- **[comparison operators][text][wait until text matches]**
 - **[operator][string][boolean]**
 
 :::info
 [Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) (==, !=, >, <, <=, >=)
 :::
+
+## checkElementLength
+
+To match the **length** of an element according to the condition, then you can use this function.
+
+| Params                   | Required | Description               | Value                                              |
+| ------------------------ | -------- | ------------------------- | -------------------------------------------------- |
+| Selector Type            | true     | Element Selector Type     |                                                    |
+| Selector Query           | true     | Element Selector Query    |                                                    |
+| Field Value              | true     | Fill Value with Condition | [comparison_operators][length_number][force_check] |
+| Wait Until Element Found | false    |                           |                                                    |
+
+### Structure of Field Value
+
+- **[parameter-1][parameter-2][parameter-3]**
+- **[comparison operators][length_number][wait until length matches]**
+- **[operator][string][boolean]**
+
+:::info
+[Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) (==, !=, >, <, <=, >=)
+:::
+
+### Value Example
+
+- [==][20][true]
+- [>][3][false]
 
 ## checkElementExists
 
@@ -257,3 +283,15 @@ If you want to wait for some time, then you can wait by giving value in seconds 
 | Params      | Required | Description  |
 | ----------- | -------- | ------------ |
 | Field Value | true     | Fill seconds |
+
+## getPageTitle
+
+If you want to get page title string.
+
+## setPageTitle
+
+If you want to **set/change** page title.
+
+| Params      | Required | Description       |
+| ----------- | -------- | ----------------- |
+| Field Value | true     | Fill Title String |

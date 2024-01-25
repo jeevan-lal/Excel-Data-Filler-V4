@@ -18,3 +18,7 @@
   var editor = CKEDITOR.instances["editornya"];
   editor.setData($entry.fieldValue);
   ```
+- `Material Select`
+  - https://harvesthq.github.io/chosen/
+- Added: Dropdown Option `MUI Select` and `MUI Autocomplete`
+- Added: Segment settings `View Element in Tab`

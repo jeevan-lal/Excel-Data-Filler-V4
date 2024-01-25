@@ -27,11 +27,35 @@ if `element value` is `false` then skip this action (also set tab id in the `ele
 
 if `element value` is `false` then skip this action (also set tab id in the `element value`)
 
+## Focus Tab
+
+It is used to focus the browser's _tab_.
+
+| Options         | Description                                                                                                                                                                            | Required |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| **Field Value** | **-** If field value is **empty** then focus active tab.<br>**-** If field value is **false** then skip focus tab action.<br>**-** You can also set the **Tab Id** in the field value. | No       |
+
+## Focus Window
+
+It is used to focus the browser's _window_.
+
+| Options         | Description                                                                                                                                                                                     | Required |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| **Field Value** | **-** If field value is **empty** then focus active window.<br>**-** If field value is **false** then skip focus window action.<br>**-** You can also set the **Window Id** in the field value. | No       |
+
 ## Close Browser Tab
 
-This field type can be used to **close** the browser tab.
+This field type can be used to **close** the browser **Tab**.
 
 <CloseBrowserTabDetailsTable/>
+
+## Close Browser Window
+
+This field type can be used to **close** the browser **Window**.
+
+| Options         | Description                                                                                                                                                                                     | Required |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+| **Field Value** | **-** If field value is **empty** then close active window.<br>**-** If field value is **false** then skip close window action.<br>**-** You can also set the **Window Id** in the field value. | No       |
 
 ## Set Download Item File Name
 
@@ -42,3 +66,20 @@ If you want to change the name of the file being downloaded in the browser, then
 ## Insert CSS
 
 Inserts a CSS stylesheet into page.
+
+## Set Local Data
+
+It is used to store any **data** in **browser storage**. The data is stored in a **unique key**. With this unique key you can [Get/Fetch](#get-local-data) or [Remove](#remove-local-data) that data.
+
+## Get Local Data
+
+We can **fetch** the data stored through [Set Local Data](#set-local-data) through the **unique key** of that data.
+
+### Settings
+
+- Wait until the given key data is received
+- Delete the data after getting the key data
+
+## Remove Local Data
+
+We can **delete** the data stored through [Set Local Data](#set-local-data) through the **unique key** of that data.
