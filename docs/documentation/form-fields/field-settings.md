@@ -85,6 +85,18 @@ If any of the conditions given in this setting are **true** then the action of t
 
 <img src="/image/field-settings-07.png" width="500" height="500" alt="Site Settings">
 
+## Wait until the response status of the given element change fields comes
+
+In this Settings, only the Field Name of [Element Change](/documentation/field-types/element-change) Field Type can be given. This setting checks the status of the given field and if the field status is *true*, the filler proceeds.
+
+<img src="/image/field-settings-11.png" alt="Site Settings">
+
+## Wait until the response status of the given request monitor fields comes
+
+In this Settings, only the Field Name of [Request Monitor](/documentation/field-types/request-monitor) Field Type can be given. This setting checks the status of the given field and if the field status is *true*, the filler proceeds.
+
+<img src="/image/field-settings-12.png" alt="Site Settings">
+
 ## If element value matches then fill the value otherwise skip the field
 
 If the value of the **element** of the field matches with the **values** given in this setting then the Field _Action_ will be executed but if the value does not match then the action of that field will be **skipped**.

@@ -101,8 +101,16 @@ const sideBarList = [
     collapsed: true,
     items: [
       {
-        text: 'Insert Field',
+        text: 'Overview',
         link: '/documentation/form-fields/field'
+      },
+      {
+        text: 'Insert Field',
+        link: '/documentation/form-fields/field#insert-field'
+      },
+      {
+        text: 'Type of Field',
+        link: '/documentation/form-fields/field-types'
       },
       {
         text: 'Field Settings',
@@ -183,7 +191,7 @@ const sideBarList = [
     collapsed: true,
     items: [
       {
-        text: 'Information',
+        text: 'Overview',
         link: '/documentation/segment'
       }
     ]

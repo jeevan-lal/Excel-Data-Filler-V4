@@ -2,149 +2,62 @@
 
 Form Field which you can fill automatically through excel template
 
+<img src="/image/field-01.png" alt="Field">
+
 ## Insert Field
 
 After filling the form of the site, you have to insert the field of the form, this field is automatic fill. After entering the field name or field type, you can insert the field.
 
-## Types of Field
+| Field Options (Important) | Required |
+| ------------------------- | -------- |
+| **Field Name**            | **Yes**  |
+| **Field Type**            | **Yes**  |
+| **Field Selector Type**   | **Yes**  |
+| **Field Selector Query**  | **Yes**  |
+| **Active/InActive**       | **Yes**  |
 
-- [Basic](#basic)
-- [External](#external)
-- [Advance](#advance)
-- [Google Field](#google-field)
-- [Microsoft Field](#microsoft-field)
-- [Scraper Data](#scraper-data)
-- [Program Helper](#program-helper)
-- [Program Helper - Advance](#program-helper-advance)
-- [Browser Actions](#browser-actions)
-- [Javascript Dialog](#javascript-dialog)
-- [Javascript Events](#javascript-events)
-- [Others](#others)
+## Field Options
 
-### Basic
+### Field Name
 
-- Text
-- Select
-- Multiple Select
-- Checkbox (Multiple Selection)
-- Radio (Single Selection)
-- Date
-- Button
-- [Upload File](/documentation/field-types/upload-file)
+Field name is important. Whatever name you give to the field, the same name will be seen in your Excel Sheet when you download the Excel template of that site. Keep in mind that all field names in a site must be unique so that while filling data in Excel we must know which field we are filling.
 
-### External
+### Field Type
 
-- Material Single Select
-- Material Multiple Select
-- [Date Picker](/documentation/field-types/date-picker)
-- [Loop](/documentation/field-types/loop)
-- Element Change
+The type of field of the form is defined in it. First you should know what is the [type of field](/documentation/form-fields/field-types).
 
-:::warning
-Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
+### Field Selector Type
+
+To fill data in the field, field selector query has to be given which is of many types, hence first the type of field selector query is defined.
+
+1. Selector
+2. Id
+3. XPath
+
+### Field Selector Query
+
+Selector Query is given to fill data in the field. This is the unique address of the field.
+
+::: tip
+You can use `JS Path` directly in the field selector query. Starting with `$.`.
+
+```js
+$.document.querySelector("#container");
+$.document.querySelector("#container").parentNode;
+$.document.querySelector("#container").shadowRoot.querySelector("#full_name");
+```
 :::
 
-### Advance
+#### [How to generate field selector query?](/documentation/locate-element)
 
-- [👩‍💻 Javascript Code](/documentation/field-types/javascript-code)
-- [🚀 Function](/documentation/functions#predefined-function)
-- [🔑 Keys](/documentation/keys#special-key)
-- [🛑 Form Error Message](/documentation/field-types/form-error-message)
-- ✅ Current Entry as Saved
-- 📃 Field Action Status Checker
+<br>
 
-### Google Field
+#### How to copy field selector query?
 
-- Single Text
-- Long Text
-- Choice (Radio)
-- Select
-- Multiple Checkboxes
-- Choice Linear Scale (Radio)
-- Multiple Choice Grid (Radio)
-- Multiple Checkboxes Grid (Checkbox)
-- Date/Time
-- Time/Duration
-- File Upload
+To copy the Field Selector Query, after installing the extension, you can copy the Field Selector Query by right clicking on the field from the option given in the picture below.
 
-### Microsoft Field
+<img src="/image/field-settings-10.png" alt="Field">
 
-- Single Text
-- Long Text
-- Choice (Radio)
-- Multiple Checkboxes
-- Dropdown
-- Date Picker
-- Rating
-- Sort List
-- Matrix Radio Group
-- Net Promoter Score (Linear Scale Radio)
+### Active/InActive
 
-### Scraper Data
-
-- Fetch Text
-- Fetch HTML
-- Scraping Data
-- Scraping Page URL
-- Fetch Table Data in Scraper Data (Portrait)
-- Fetch Table Data in the Response Excel (Landscape)
-- [Fetch Header-Value Data](/documentation/field-types/scraper-data#fetch-header-value-data)
-
-### Program Helper
-
-- [X-Focus Application Window](/documentation/field-types/program-helper#x-focus-application-window)
-- [X-Click (Space Key)](/documentation/field-types/program-helper#x-click-space-key)
-- [X-Paste Text](/documentation/field-types/program-helper#x-paste-text)
-- [X-WinAlwaysOnTop (Activate)](/documentation/field-types/program-helper#x-winalwaysontop-activate)
-- [X-WinAlwaysOnTop (Deactivate)](/documentation/field-types/program-helper#x-winalwaysontop-deactivate)
-
-### Program Helper - Advance
-
-- [X-Send](/documentation/field-types/program-helper#x-send)
-- [X-MouseClick](/documentation/field-types/program-helper#x-mouseclick)
-- [X-ControlClick](/documentation/field-types/program-helper#x-controlclick)
-- [X-ImageSearch](/documentation/field-types/program-helper#x-imagesearch)
-
-### Browser Actions
-
-- [Capture Tab](/documentation/field-types/browser-actions#capture-tab)
-- [Go Back to Previous Page](/documentation/field-types/browser-actions#go-back-to-previous-page)
-- [Go Forward to Next Page](/documentation/field-types/browser-actions#go-forward-to-next-page)
-- [Reload Tab](/documentation/field-types/browser-actions#reload-tab)
-- [Focus Tab](/documentation/field-types/browser-actions#focus-tab)
-- [Focus Window](/documentation/field-types/browser-actions#focus-window)
-- [Close Browser Tab](/documentation/field-types/browser-actions#close-browser-tab)
-- [Close Browser Window](/documentation/field-types/browser-actions#close-browser-window)
-- [Set Download Item File Name](/documentation/field-types/browser-actions#set-download-item-file-name)
-- [Insert CSS](/documentation/field-types/browser-actions#insert-css)
-- [Set Local Data](/documentation/field-types/browser-actions#set-local-data)
-- [Get Local Data](/documentation/field-types/browser-actions#get-local-data)
-- [Remove Local Data](/documentation/field-types/browser-actions#remove-local-data)
-
-### Javascript Dialog
-
-- Alert Dialog
-- Confirm Dialog
-- Prompt Dialog
-- Hide Alert Dialog
-- Get Alert Dialog Message
-
-### Javascript Events
-
-- [Keyboard Event](/documentation/field-types/javascript-events#keyboard-event)
-
-### Others
-
-- Insert/Remove HTML
-- [URL Matching](/documentation/field-types/url-matching)
-- [URL Open](/documentation/field-types/url-open)
-- [Send Request](/documentation/field-types/send-request)
-- [Web Request Completed](/documentation/field-types/web-request-completed)
-- [Timer Action](/documentation/field-types/timer-action)
-- [String Matching](/documentation/field-types/string-matching)
-- [String Manipulation](/documentation/field-types/string-manipulation)
-- [Copy](/documentation/field-types/copy)
-- [Save as PDF](/documentation/field-types/save-as-pdf)
-- Page Loading
-- Toast Notification
-- [Target Element For Print](/documentation/field-types/target-element-for-print)
+It is used to activate and deactivate the field. If the field is deactivated then the column of that field is not created in the excel sheet.

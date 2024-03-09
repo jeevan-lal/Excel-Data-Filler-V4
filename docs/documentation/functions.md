@@ -123,6 +123,15 @@ If you want to check an element whether the element is in the page or not and th
 | Selector Query           | true     |
 | Wait Until Element Found | false    |
 
+## removeElement
+
+If you want to remove element from page.
+
+| Params         | Required |
+| -------------- | -------- |
+| Selector Type  | true     |
+| Selector Query | true     |
+
 ## cleanSessionStorage
 
 This method removes all the Session Storage Object item for this domain.
