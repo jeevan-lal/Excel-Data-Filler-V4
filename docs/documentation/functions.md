@@ -293,6 +293,11 @@ If you want to wait for some time, then you can wait by giving value in seconds 
 | ----------- | -------- | ------------ |
 | Field Value | true     | Fill seconds |
 
+:::v-pre
+:::tip
+Use variable `{{random.integer[0][12]}}` for random seconds.
+:::
+
 ## getPageTitle
 
 If you want to get page title string.

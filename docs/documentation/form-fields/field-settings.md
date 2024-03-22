@@ -87,13 +87,13 @@ If any of the conditions given in this setting are **true** then the action of t
 
 ## Wait until the response status of the given element change fields comes
 
-In this Settings, only the Field Name of [Element Change](/documentation/field-types/element-change) Field Type can be given. This setting checks the status of the given field and if the field status is *true*, the filler proceeds.
+In this Settings, only the Field Name of [Element Change](/documentation/field-types/element-change) Field Type can be given. This setting checks the status of the given field and if the field status is _true_, the filler proceeds.
 
 <img src="/image/field-settings-11.png" alt="Site Settings">
 
 ## Wait until the response status of the given request monitor fields comes
 
-In this Settings, only the Field Name of [Request Monitor](/documentation/field-types/request-monitor) Field Type can be given. This setting checks the status of the given field and if the field status is *true*, the filler proceeds.
+In this Settings, only the Field Name of [Request Monitor](/documentation/field-types/request-monitor) Field Type can be given. This setting checks the status of the given field and if the field status is _true_, the filler proceeds.
 
 <img src="/image/field-settings-12.png" alt="Site Settings">
 
@@ -175,10 +175,16 @@ After turning on this setting the field will not be inserted in the **excel temp
 
 Delay Time **(Milliseconds)** before the field runs.
 
+:::v-pre
 :::tip
-If you want random delay time then you can use [Random Integer Variable](/documentation/variable#generate-random-value).
+If you want random delay time then you can use [Random Integer Variable](/documentation/variable#generate-random-value). Use variable `{{random.integer[1000][2000]}}` for random milliseconds.
 :::
 
 ## Delay Time After this field is Run
 
 Delay Time **(Milliseconds)** after the field runs.
+
+:::v-pre
+:::tip
+If you want random delay time then you can use [Random Integer Variable](/documentation/variable#generate-random-value). Use variable `{{random.integer[1000][2000]}}` for random milliseconds.
+:::
