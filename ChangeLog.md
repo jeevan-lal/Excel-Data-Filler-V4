@@ -41,6 +41,8 @@
   - `Chosen` (https://harvesthq.github.io/chosen/)
   - `React Select` (https://react-select.com/home)
 - Fixed: Dropdown: `https://mui.com/material-ui/react-select/`
+- Added: External Library in `Material Single Select`.
+  - `PrimeNG` (https://primeng.org)
 - Added: New option in field type `Material Single Select` and `Material Multiple Select`.
   - `Trigger event on dropdown matched option`.
   - `Before selecting the dropdown option, check that option is already selected?`.

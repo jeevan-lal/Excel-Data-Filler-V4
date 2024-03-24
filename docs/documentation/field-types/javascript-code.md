@@ -26,16 +26,19 @@ var response = { storeDataInScraper: [] };
 // DATA TYPE: OBJECT AND ALL OBJECT KEY NAME IS UNIQUE
 var response = { storeDataInEntry: {} };
 
-// [3]: SKIP CURRENT FORM
+// [3] STORE DATA IN THE ACTIVE/CURRENT FIELD VALUE
+var response = { storeDataInField: "String" };
+
+// [4]: SKIP CURRENT FORM
 var response = { skipForm: true };
 
-// [4]: SKIP SEGMENT
+// [5]: SKIP SEGMENT
 var response = { skipSegment: true };
 
-// [5]: STOP LOOP
+// [6]: STOP LOOP
 var response = { loopStop: true };
 
-// [6]: RETURN ERROR RESPONSE (BY DEFAULT SET SUCCESS RESPONSE)
+// [7]: RETURN ERROR RESPONSE (BY DEFAULT SET SUCCESS RESPONSE)
 var response = { status: false, message: "Error Message" };
 
 // RETURN RESPONSE

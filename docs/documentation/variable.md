@@ -4,12 +4,21 @@ import TodayDate from '../components/TodayDate.vue'
 
 # Variable
 
-You have to use these variables inside curly braces. like this
-
 :::v-pre
-{{variable_name}}
+You have to use these variables inside curly braces `{{}}` and `{$variable_name$}`. You can use any `Field Name` as a variable through `{$field_name$}`.
+
+## Example
+
+| Variable                                   |
+| ------------------------------------------ |
+| `{$field_name$}`                           |
+| `{{calculation.increase[20]}}`             |
+| `{{calculation.increase[{$field_name$}]}}` |
 
 ## Page Location Variable
+
+:::v-pre
+Use this variable in the format `{{variable_name}}`
 
 | Variable Name         | Description       |
 | --------------------- | ----------------- |
@@ -21,7 +30,10 @@ You have to use these variables inside curly braces. like this
 
 ## Generate Random Value
 
-| Variable Name                                                                 | Description                                                                                                                 | Output                                   |
+:::v-pre
+Use this variable in the format `{{variable_name}}`
+
+| Variable Name                                                                 | Description                                                                                                                 | Output                                    |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | random.integer[0][12]                                                         | Generate random integer value form **0** to **12**.                                                                         | 7 <br> 11,..                              |
 | random.float[0][12][2]                                                        | Generate random float value form **0** to **12** with **2** digit precision.                                                | 7.45 <br> 11.90,..                        |
@@ -35,10 +47,13 @@ You have to use these variables inside curly braces. like this
 
 ## Calculation
 
+:::v-pre
+Use this variable in the format `{{variable_name}}`
+
 | Variable Name           | Description             | Output |
-| ----------------------- | ----------------------- | ------- |
-| calculation.increase[2] | To increase the number. | 3       |
-| calculation.decrease[3] | To decrease the number. | 2       |
+| ----------------------- | ----------------------- | ------ |
+| calculation.increase[2] | To increase the number. | 3      |
+| calculation.decrease[3] | To decrease the number. | 2      |
 
 :::v-pre
 :::tip
@@ -50,9 +65,12 @@ You have to use these variables inside curly braces. like this
 
 ## Loop Variable
 
+:::v-pre
+Use this variable in the format `{{variable_name}}`
+
 | Variable Name         | Description                                                                                                                                                                                                | Output |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| loop.index[FieldName] | If you are using Field Type [Loop](/documentation/field-types/loop) and you need the index of the Loop then you can use this variable. In this variable you only have to give the name of Field Type Loop. |   Number      |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| loop.index[FieldName] | If you are using Field Type [Loop](/documentation/field-types/loop) and you need the index of the Loop then you can use this variable. In this variable you only have to give the name of Field Type Loop. | Number |
 
 :::v-pre
 :::tip

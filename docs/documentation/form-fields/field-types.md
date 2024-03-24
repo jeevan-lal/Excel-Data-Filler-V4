@@ -12,6 +12,7 @@ Fields are used to fill data in the form and there is a type of these fields so 
 - Date
 - Button
 - [Upload File](/documentation/field-types/upload-file)
+- [Video](/documentation/field-types/video)
 
 ## External
 
@@ -66,7 +67,7 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 
 - Fetch Text
 - Fetch HTML
-- Scraping Data
+- [Scraping Data](/documentation/field-types/scraper-data#scraping-data)
 - Scraping Page URL
 - Fetch Table Data in Scraper Data (Vertical)
 - Fetch Table Data in the Response Excel (Horizontal)
