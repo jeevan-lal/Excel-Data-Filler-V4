@@ -7,6 +7,10 @@ import SetDownloadItemFileNameDetailsTable from './../template/SetDownloadItemFi
 
 Browser actions.
 
+## Open a new Tab
+
+Open a new tab in browser then use this field type and you can set tab `url` in the field value.
+
 ## Capture Tab
 
 If you want to take a screenshot of the page then you can use this.

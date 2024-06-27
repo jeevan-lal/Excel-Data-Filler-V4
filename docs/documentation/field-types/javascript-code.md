@@ -7,6 +7,8 @@ You can use Javascript code in any field or you can give any field only in **Jav
 localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", "1");
 ```
 
+- You can set `default value` in the field type.
+
 ## Global Variable
 
 Use `$entry` variable in the javascript code for access entry and excel data.
@@ -51,3 +53,71 @@ localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", JSON.strin
 - `Ctrl + S` = Save
 - `Ctrl + Z` = Word Wrap
 - `Shift + Alt + L` = Debug Console Log
+
+## Predefine Functions
+
+- `triggerEvent`
+
+```js
+await $fns.triggerEvent(element, ["change", "focus"]);
+```
+
+- `triggerMouseEvent`
+
+```js
+await $fns.triggerMouseEvent(element, ["mousedown", "mouseup"]);
+```
+
+- `wait`
+
+```js
+await $fns.wait(1000);
+```
+
+- `trim`
+
+```js
+await $fns.trim(text, isRemoveAllSpace: Boolean, isLowerCase: Boolean, {
+  isUpperCase: Boolean,
+  isRemoveSpecialChar: Boolean,
+  isRemoveExtraSpace: Boolean,
+  replaceChar: Array[2]
+});
+```
+
+- `randomHexColor`
+
+```js
+await $fns.randomHexColor();
+```
+
+- `getRandomString`
+
+```js
+await $fns.getRandomString(length: Number);
+```
+
+- `randomBoolean`
+
+```js
+await $fns.randomBoolean();
+```
+
+- `randomUniqueID`
+
+```js
+await $fns.randomUniqueID(length: Number);
+```
+
+- `randomInteger`
+
+```js
+await $fns.randomInteger(min: Number, max: Number);
+```
+
+- `randomFloat`
+
+```js
+await $fns.randomFloat(min: Number, max: Number, fixed: Number);
+```
+

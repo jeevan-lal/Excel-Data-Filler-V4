@@ -1,6 +1,10 @@
 ---
-# prev: 'Get Started | Markdown'
-# next: 'Icon'
+prev:
+  text: "Home"
+  link: "/"
+next:
+  text: "Icon"
+  link: "/documentation/extension"
 ---
 
 ## Introduction

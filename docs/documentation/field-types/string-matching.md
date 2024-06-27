@@ -15,3 +15,9 @@ You can use this field type to match the **value** or **text** of the element in
 
 - Search Full String
 - Equal Full String
+
+### Options
+
+- Search string in the multiple element text
+- Remove extra space from text then match the text
+- Remove all space from text then match the text

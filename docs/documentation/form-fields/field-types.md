@@ -91,6 +91,7 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 
 ## Browser Actions
 
+- [Open a new Tab](/documentation/field-types/browser-actions#open-a-new-tab)
 - [Capture Tab](/documentation/field-types/browser-actions#capture-tab)
 - [Go Back to Previous Page](/documentation/field-types/browser-actions#go-back-to-previous-page)
 - [Go Forward to Next Page](/documentation/field-types/browser-actions#go-forward-to-next-page)
@@ -117,6 +118,13 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 ## Javascript Events
 
 - [Keyboard Event](/documentation/field-types/javascript-events#keyboard-event)
+
+## Date and Time
+
+- [Current Date and Time](/documentation/field-types/date-time#)
+- [Change Date Format](/documentation/field-types/date-time#)
+- [Increase Date](/documentation/field-types/date-time#)
+- [Decrease Date](/documentation/field-types/date-time#)
 
 ## Others
 

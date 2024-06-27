@@ -1,12 +1,20 @@
+---
+prev:
+  text: "Introduction"
+  link: "/documentation/#introduction"
+next:
+  text: "Log"
+  link: "/documentation/log"
+---
+
 ## Icon
 
 Extension status can now be tracked much better
 
-| Icon  | Description                                                    |
-| ----- | -------------------------------------------------------------- |
-| ![Icon](/32x32.png) | Extension is ON. Ready to work.                                |
+| Icon                    | Description                                                    |
+| ----------------------- | -------------------------------------------------------------- |
+| ![Icon](/32x32.png)     | Extension is ON. Ready to work.                                |
 | ![Icon](/32x32-off.png) | At this time extension is OFF which will not work on any site. |
-
 
 ## Settings
 

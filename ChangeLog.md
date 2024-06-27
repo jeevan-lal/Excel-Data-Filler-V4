@@ -50,3 +50,67 @@
       - **Value**: `attribute_name|attribute_value`
   - `Before selecting the dropdown option, uncheck the already selected options`.
 - Added: `ng-multiselect-dropdown` dropdown in the `Material Single/Multiple Select` Field Type.
+- JS code override
+
+  ```js
+  // JS CODE
+
+  function submitAction() {
+    alert("Submitted.");
+  }
+
+  function resetAction() {
+    alert("Reset.");
+  }
+
+  /**
+    [METHOD-01] If using onclick attribute in the element
+  */
+  // var submitbtn = document.querySelector("#submit")
+  // if (submitbtn) {
+  //   submitbtn.removeAttribute('onclick');
+  //   submitbtn.addEventListener("click", submitAction)
+  // }
+
+  /**
+    [METHOD-02] Remove Button and Inject New Button HTML
+  */
+  // var submitbtn = document.querySelector("#submit")
+  // if (submitbtn) submitbtn.remove();
+  // var container = document.querySelector("#container")
+  // if (container) container.insertAdjacentHTML("afterbegin", '<button class="btn btn-success" type="submit" id="submit">Submit</button>')
+  // var submitbtn = document.querySelector("#submit")
+  // if (submitbtn) {
+  //   submitbtn.addEventListener("click", submitAction);
+  // }
+
+  /**
+    [METHOD-03] Override JS Code
+  */
+  var actualCode = `
+    function submitAction() {
+      alert("Submitted.")
+    }
+  `;
+
+  var script = document.createElement("script");
+  script.textContent = actualCode;
+  (document.head || document.documentElement).appendChild(script);
+  script.remove();
+
+  // Return
+  localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", "1");
+  ```
+
+- `Date Picker`
+  - https://www.daterangepicker.com/
+  - `NOTE` manually date filling not working.
+  - With JS Code
+  ```js
+  var dateInput = $($entry.fieldDetails.selectorQuery);
+  if (dateInput) dateInput.data("daterangepicker").setStartDate($entry.fieldValue);
+  ```
+  - Date Picker Settings
+    - `Previous Button` : div.drp-calendar[style*="display: block;"] table th.prev
+    - `Next Button` : div.drp-calendar[style*="display: block;"] table th.next
+    - `Days Selector Address` : div.drp-calendar[style*="display: block;"] table tbody td:not(.week):not(.off)

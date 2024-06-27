@@ -1,3 +1,12 @@
+---
+prev:
+  text: "Icon"
+  link: "/documentation/#extension"
+next:
+  text: "Structure"
+  link: "/documentation/structure"
+---
+
 # Log
 
 List of log messages (Life-Cycle Events) from extension to check what is heppenning behind the scene
