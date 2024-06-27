@@ -5,7 +5,7 @@ You can use validation and condition while filling the form using predefined fun
 You can also use [variables](variable) in the value of predefined functions. like this
 
 ```
-{{excel_column_name}}
+{$excel_column_name$}
 ```
 
 ## checkAttributeExists
