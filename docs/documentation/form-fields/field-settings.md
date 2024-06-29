@@ -4,7 +4,7 @@ When you **edit** the field, a sidebar opens like the picture given below, it co
 
 <img src="/image/field-settings-01.png" width="500" height="500" alt="Field Settings">
 
-## Fill Value Just Like Typing Tutor
+## Fill the values ​​like a typing tutor
 
 Through this, you can type the value in the **Input Field** like a **Typing Tutor** and you can also set the speed of typing.
 
