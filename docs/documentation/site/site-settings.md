@@ -2,6 +2,8 @@
 
 Customization site settings.
 
+![Site Settings](/image/site-settings-02.png)
+
 ### Ignore field default value
 
 If you have set the default value in the fields and if you do not want to fill the default value of all fields in the form of the site, then turn on this option.

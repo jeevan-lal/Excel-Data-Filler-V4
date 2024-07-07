@@ -18,6 +18,8 @@ Extension status can now be tracked much better
 
 ## Settings
 
+<img src="/image/extension-settings-01.png" width="500" height="500" alt="Image">
+
 ### [On/Off Extension](https://efiller.netlify.app/settings)
 
 You can use this setting to turn on/off the extension and you can also turn on/off the extension through chrome shortcuts key `ALT + Q`.

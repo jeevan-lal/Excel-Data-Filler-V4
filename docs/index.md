@@ -4,8 +4,8 @@ title: Home
 hero:
   name: Excellent Data Filler
   image:
-    # src: /180x180.png
-  # text: 'Excellent Data Filler'
+    src: /180x180.png
+  text: "Auto Filler and Clicker"
   tagline: Excellent Data Filler is a form auto filler and Scraper Data. With the help of which you can fill the form through excel template and it is all automatic.
   actions:
     - theme: brand
@@ -27,4 +27,19 @@ features:
   - icon: 🏃‍♂️
     title: Execute JavaScript Code
     details: Execute custom javascript code and use predefine javascript functions.
+  - icon: 📂
+    title: Auto File Uploading
+    details: Site has automatic file uploading and also works on Google Forms and Microsoft Forms.
+  - icon: 📜
+    title: Scraper Data
+    details: Scrape text and table data from the site.
+  - icon: 💬
+    title: Hide Javascript Dialog
+    details: Hide Javascript Alert, Confirm, Prompt Dialog. Get alert dialog text.
+  - icon: 📅
+    title: Data and Time
+    details: Increase and Decrease date and time, change date format and other actions.
+  - icon: 📄
+    title: Save as PDF
+    details: Automatic save as PDF.
 ---

@@ -32,3 +32,17 @@ Following **Helper Program** needs to be downloaded and installed on your comput
 
 ### X-ImageSearch
 
+### X-FileGetSize
+
+Get file size in `Bytes`, set file path in the `field value`. 
+
+```
+# Supported URL/Path
+
+C:\Users\P1\Pictures\photo.jpg
+https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg
+```
+
+### X-FileExtension
+
+Get file `extension`. likes `png, jpg, js,..`

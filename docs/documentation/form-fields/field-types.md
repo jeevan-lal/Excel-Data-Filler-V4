@@ -35,6 +35,7 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 - [🛑 Form Error Message](/documentation/field-types/form-error-message)
 - ✅ Current Entry as Saved
 - 📃 Field Action Status Checker
+- ⏭️ Next Excel Entry Exists
 
 ## Google Field
 
@@ -88,6 +89,15 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 - [X-MouseClick](/documentation/field-types/program-helper#x-mouseclick)
 - [X-ControlClick](/documentation/field-types/program-helper#x-controlclick)
 - [X-ImageSearch](/documentation/field-types/program-helper#x-imagesearch)
+- [X-FileGetSize](/documentation/field-types/program-helper#x-filegetsize)
+- [X-FileExtension](/documentation/field-types/program-helper#x-fileextension)
+
+## Image Actions
+
+- [Get Image/File Base64 String](/documentation/field-types/image-actions#get-image-file-base64-string)
+- [Get Image Width](/documentation/field-types/image-actions#get-image-width)
+- [Get Image Height](/documentation/field-types/image-actions#get-image-height)
+- [Download Image/File](/documentation/field-types/image-actions#download-image-file)
 
 ## Browser Actions
 

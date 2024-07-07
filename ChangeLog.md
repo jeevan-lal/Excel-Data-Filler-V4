@@ -114,3 +114,9 @@
     - `Previous Button` : div.drp-calendar[style*="display: block;"] table th.prev
     - `Next Button` : div.drp-calendar[style*="display: block;"] table th.next
     - `Days Selector Address` : div.drp-calendar[style*="display: block;"] table tbody td:not(.week):not(.off)
+- Jquery Slider
+  ```js
+  $slider = $(".bar");
+  $slider.slider("value", 100);
+  $slider.slider("option", "slide").apply($slider, [null, { value: $slider.slider("value") }]);
+  ```

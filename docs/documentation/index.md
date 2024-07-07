@@ -43,6 +43,7 @@ Excellent Data Filler extension is available for all major browsers.
 ## Join
 
 - [📺 YouTube](https://www.youtube.com/@ctechhindi)
+- [❔ Google Group](https://groups.google.com/g/excellent-data-filler)
 - [👨‍👧‍👧 WhatsApp Group](https://chat.whatsapp.com/F2AdHoZRvr8HiAbvWqKlVS)
 - [📦 GitHub](https://github.com/jeevan-lal/Excel-Data-Filler-V4)
 - [💻 Testing Site](/documentation/testing-site)

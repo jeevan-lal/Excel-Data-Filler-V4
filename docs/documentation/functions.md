@@ -161,6 +161,39 @@ You can check the rows of the table according to the condition.
 [Comparison Operators](https://www.w3schools.com/js/js_comparisons.asp) (>, <, ==, !=, <=, >=)
 :::
 
+## checkDropdownValue
+
+If you want to check for a string in the dropdown element options value, then you can use it. If string matched then field return option text.
+
+| Params         | Required | Description               | Value                     |
+| -------------- | -------- | ------------------------- | ------------------------- |
+| Selector Type  | true     | Element Selector Type     |                           |
+| Selector Query | true     | Element Selector Query    |                           |
+| Field Value    | true     | Fill Value with Condition | [option1][true] <br> [M][false] |
+
+### Structure of Field Value
+
+- **[parameter-1][parameter-2]**
+- **[search string][wait until string matches]**
+- **[string][boolean]**
+
+## checkDropdownText
+
+If you want to check for a string in the dropdown element options name, then you can use it. If string matched then field return option value.
+
+
+| Params         | Required | Description               | Value                     |
+| -------------- | -------- | ------------------------- | ------------------------- |
+| Selector Type  | true     | Element Selector Type     |                           |
+| Selector Query | true     | Element Selector Query    |                           |
+| Field Value    | true     | Fill Value with Condition | [option1][true] <br> [M][false] |
+
+### Structure of Field Value
+
+- **[parameter-1][parameter-2]**
+- **[search string][wait until string matches]**
+- **[string][boolean]**
+
 ## downloadFile
 
 Wait for download (file) to complete and perform given action when download is done, also you can attach this function with given button
