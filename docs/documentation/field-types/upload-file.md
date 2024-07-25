@@ -6,7 +6,7 @@ You can use this field, When you want to upload file through web form. It also w
 
 Following **Helper Program** needs to be downloaded and installed on your computer, It is required to automatically select given file(s) from your computer.
 
-- [For Windows](/edf-extension-helper-installer-v1.6.exe)
+- [For Windows](/edf-extension-helper-installer-v1.7.exe)
 
 ## Field Options
 
