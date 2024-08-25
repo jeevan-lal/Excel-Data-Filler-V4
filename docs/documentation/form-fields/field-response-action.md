@@ -11,3 +11,6 @@ After form field running, we get two types of response **success** and **error**
 
 <br>
 <img src="/image/field-error-response-action-01.png" width="400" height="400" alt="Field Error Response Action">
+
+
+## Field Skip Response Action

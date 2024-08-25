@@ -45,6 +45,10 @@ In some date pickers, when you click on the date field, the date gets inserted i
 
 If the date is not shown in the field after clicking on the date picker field, then you will have to fill the date of the date picker in this option. As the already selected date of the date picker given above is **2023-04-22**
 
+### Generate Calendar Already Selected Date
+
+If the selected date always changes at any time in the date picker then set this "Create a calendar with an already selected date" option.
+
 ### Open Calendar Button Selector Address
 
 If calendar do not open when we click on input field because it is attached to a button, then use this option.

@@ -12,7 +12,7 @@ You can also use [variables](variable) in the value of predefined functions. lik
 
 If you want to check [attribute](https://www.w3schools.com/html/html_attributes.asp) in the html element whether the attribute is in the element or not also check attribute value match or not match, then you can use it.
 
-| Params                   | Required | Description               | Value                                          |
+| Options                  | Required | Description               | Value                                          |
 | ------------------------ | -------- | ------------------------- | ---------------------------------------------- |
 | Selector Type            | true     | Element Selector Type     |                                                |
 | Selector Query           | true     | Element Selector Query    |                                                |
@@ -25,7 +25,7 @@ If you want to check [attribute](https://www.w3schools.com/html/html_attributes.
 
 If you want to check [attribute](https://www.w3schools.com/html/html_attributes.asp) in the html element not exists also check attribute value match or not match, then you can use it.
 
-| Params                   | Required | Description               | Value                                          |
+| Options                  | Required | Description               | Value                                          |
 | ------------------------ | -------- | ------------------------- | ---------------------------------------------- |
 | Selector Type            | true     | Element Selector Type     |                                                |
 | Selector Query           | true     | Element Selector Query    |                                                |
@@ -40,12 +40,13 @@ If you want to check [attribute](https://www.w3schools.com/html/html_attributes.
 
 To match the **text/value** of an element according to the condition, then you can use this function.
 
-| Params                   | Required | Description               | Value                                     |
-| ------------------------ | -------- | ------------------------- | ----------------------------------------- |
-| Selector Type            | true     | Element Selector Type     |                                           |
-| Selector Query           | true     | Element Selector Query    |                                           |
-| Field Value              | true     | Fill Value with Condition | [comparison_operators][text][force_check] |
-| Wait Until Element Found | false    |                           |                                           |
+| Options                                                 | Required | Description               | Value                                     |
+| ------------------------------------------------------- | -------- | ------------------------- | ----------------------------------------- |
+| Selector Type                                           | true     | Element Selector Type     |                                           |
+| Selector Query                                          | true     | Element Selector Query    |                                           |
+| Field Value                                             | true     | Fill Value with Condition | [comparison_operators][text][force_check] |
+| Wait Until Element Found                                | false    |                           |                                           |
+| Execute the action of the function on multiple elements | false    |                           |                                           |
 
 ### Structure of Field Value
 
@@ -61,7 +62,7 @@ To match the **text/value** of an element according to the condition, then you c
 
 To match the **length** of an element according to the condition, then you can use this function.
 
-| Params                   | Required | Description               | Value                                              |
+| Options                  | Required | Description               | Value                                              |
 | ------------------------ | -------- | ------------------------- | -------------------------------------------------- |
 | Selector Type            | true     | Element Selector Type     |                                                    |
 | Selector Query           | true     | Element Selector Query    |                                                    |
@@ -87,7 +88,7 @@ To match the **length** of an element according to the condition, then you can u
 
 If you want to check an element whether the element is in the page or not, then you can use it.
 
-| Params                   | Required |
+| Options                  | Required |
 | ------------------------ | -------- |
 | Selector Type            | true     |
 | Selector Query           | true     |
@@ -97,7 +98,7 @@ If you want to check an element whether the element is in the page or not, then 
 
 If you want to check an element whether the element is in the page or not, then you can use it.
 
-| Params                   | Required |
+| Options                  | Required |
 | ------------------------ | -------- |
 | Selector Type            | true     |
 | Selector Query           | true     |
@@ -107,7 +108,7 @@ If you want to check an element whether the element is in the page or not, then 
 
 If you want to check an element whether the element is there in the page or not and the element is visible to us then you can use this.
 
-| Params                   | Required |
+| Options                  | Required |
 | ------------------------ | -------- |
 | Selector Type            | true     |
 | Selector Query           | true     |
@@ -117,7 +118,7 @@ If you want to check an element whether the element is there in the page or not 
 
 If you want to check an element whether the element is in the page or not and the element is invisible then you can use this.
 
-| Params                   | Required |
+| Options                  | Required |
 | ------------------------ | -------- |
 | Selector Type            | true     |
 | Selector Query           | true     |
@@ -127,7 +128,7 @@ If you want to check an element whether the element is in the page or not and th
 
 If you want to remove element from page.
 
-| Params         | Required |
+| Options        | Required |
 | -------------- | -------- |
 | Selector Type  | true     |
 | Selector Query | true     |
@@ -140,11 +141,70 @@ This method removes all the Session Storage Object item for this domain.
 
 This method removes all the Local Storage Object item for this domain.
 
+## countCharLength
+
+You can count given character in the element string.
+
+| Options                  | Required | Description               | Value                      |
+| ------------------------ | -------- | ------------------------- | -------------------------- |
+| Selector Type            | true     | Element Selector Type     |                            |
+| Selector Query           | true     | Element Selector Query    |                            |
+| Field Value              | true     | Fill Value with Condition | [a][true] <br> [In][false] |
+| Wait Until Element Found | false    |                           |                            |
+
+### Structure of Field Value
+
+- **[parameter-1][parameter-2]**
+- **[string matching][case-sensitive]**
+- **[string][boolean]**
+
+::: info Example
+If element string is `"Indian"` and field value is `"[i][true]"` then this function return 2;
+
+Indian => [i][true] => 2 <br>
+Indian => [i][false] => 1 <br>
+Indian => [In][false] => 1 <br>
+Indian => [A][false] => 0 <br>
+:::
+
+## countCharsLength
+
+You can count total characters in string.
+
+| Options                  | Required | Description            | Value |
+| ------------------------ | -------- | ---------------------- | ----- |
+| Selector Type            | true     | Element Selector Type  |       |
+| Selector Query           | true     | Element Selector Query |       |
+| Wait Until Element Found | false    |                        |       |
+
+::: info Example
+If element string is `"India"` then this function return 5;
+:::
+
+## countSplitArrayLength
+
+You can count split array length.
+
+| Options                  | Required | Description            | Value        |
+| ------------------------ | -------- | ---------------------- | ------------ |
+| Selector Type            | true     | Element Selector Type  |              |
+| Selector Query           | true     | Element Selector Query |              |
+| Field Value              | true     | Split String           | ,, <br> \r\n |
+| Wait Until Element Found | false    |                        |              |
+
+::: info Example
+If element string is `"India,,Israel"` and field value is `",,"` then this function return 2;
+:::
+
+::: warning NOTE
+If there are values ​​in new line then use this `\r\n` for split values.
+:::
+
 ## countTableRows
 
 You can check the rows of the table according to the condition.
 
-| Params                   | Required | Description               | Value                             |
+| Options                  | Required | Description               | Value                             |
 | ------------------------ | -------- | ------------------------- | --------------------------------- |
 | Selector Type            | true     | Element Selector Type     |                                   |
 | Selector Query           | true     | Element Selector Query    |                                   |
@@ -165,10 +225,10 @@ You can check the rows of the table according to the condition.
 
 If you want to check for a string in the dropdown element options value, then you can use it. If string matched then field return option text.
 
-| Params         | Required | Description               | Value                     |
-| -------------- | -------- | ------------------------- | ------------------------- |
-| Selector Type  | true     | Element Selector Type     |                           |
-| Selector Query | true     | Element Selector Query    |                           |
+| Options        | Required | Description               | Value                           |
+| -------------- | -------- | ------------------------- | ------------------------------- |
+| Selector Type  | true     | Element Selector Type     |                                 |
+| Selector Query | true     | Element Selector Query    |                                 |
 | Field Value    | true     | Fill Value with Condition | [option1][true] <br> [M][false] |
 
 ### Structure of Field Value
@@ -181,11 +241,10 @@ If you want to check for a string in the dropdown element options value, then yo
 
 If you want to check for a string in the dropdown element options name, then you can use it. If string matched then field return option value.
 
-
-| Params         | Required | Description               | Value                     |
-| -------------- | -------- | ------------------------- | ------------------------- |
-| Selector Type  | true     | Element Selector Type     |                           |
-| Selector Query | true     | Element Selector Query    |                           |
+| Options        | Required | Description               | Value                           |
+| -------------- | -------- | ------------------------- | ------------------------------- |
+| Selector Type  | true     | Element Selector Type     |                                 |
+| Selector Query | true     | Element Selector Query    |                                 |
 | Field Value    | true     | Fill Value with Condition | [option1][true] <br> [M][false] |
 
 ### Structure of Field Value
@@ -205,7 +264,7 @@ and perform some action after it.
 
 [Demo](https://formfiller.ctechhindi.in/example/example-24.php)
 
-| Params                   | Required | Description            | Value |
+| Options                  | Required | Description            | Value |
 | ------------------------ | -------- | ---------------------- | ----- |
 | Selector Type            | false    | Element Selector Type  |       |
 | Selector Query           | false    | Element Selector Query |       |
@@ -215,23 +274,25 @@ and perform some action after it.
 
 The `insertClassName` method adds one or more CSS class names to the element. This method does not remove existing class attributes, it only adds one or more class names to the class attribute.
 
-| Params                   | Required | Description            | Value                   |
-| ------------------------ | -------- | ---------------------- | ----------------------- |
-| Selector Type            | true     | Element Selector Type  |                         |
-| Selector Query           | true     | Element Selector Query |                         |
-| Field Value              | true     | Fill css class name    | bg-danger,text-white,.. |
-| Wait Until Element Found | false    |                        |                         |
+| Options                                                 | Required | Description            | Value                   |
+| ------------------------------------------------------- | -------- | ---------------------- | ----------------------- |
+| Selector Type                                           | true     | Element Selector Type  |                         |
+| Selector Query                                          | true     | Element Selector Query |                         |
+| Field Value                                             | true     | Fill css class name    | bg-danger,text-white,.. |
+| Wait Until Element Found                                | false    |                        |                         |
+| Execute the action of the function on multiple elements | false    |                        |                         |
 
 ## removeClassName
 
 This `removeClassName` method removes one or more the element CSS class name.
 
-| Params                   | Required | Description            | Value                   |
-| ------------------------ | -------- | ---------------------- | ----------------------- |
-| Selector Type            | true     | Element Selector Type  |                         |
-| Selector Query           | true     | Element Selector Query |                         |
-| Field Value              | true     | Fill CSS class name    | bg-danger,text-white,.. |
-| Wait Until Element Found | false    |                        |                         |
+| Options                                                 | Required | Description            | Value                   |
+| ------------------------------------------------------- | -------- | ---------------------- | ----------------------- |
+| Selector Type                                           | true     | Element Selector Type  |                         |
+| Selector Query                                          | true     | Element Selector Query |                         |
+| Field Value                                             | true     | Fill CSS class name    | bg-danger,text-white,.. |
+| Wait Until Element Found                                | false    |                        |                         |
+| Execute the action of the function on multiple elements | false    |                        |                         |
 
 :::info
 If you want to remove all element classes then set value `remove-all-classes`.
@@ -241,23 +302,25 @@ If you want to remove all element classes then set value `remove-all-classes`.
 
 The `insertCSSText` method sets the text of the element's inline style. This method removes the existing inline style.
 
-| Params                   | Required | Description            | Value                       |
-| ------------------------ | -------- | ---------------------- | --------------------------- |
-| Selector Type            | true     | Element Selector Type  |                             |
-| Selector Query           | true     | Element Selector Query |                             |
-| Field Value              | true     | Fill CSS style name    | float:left;margin-top:75px; |
-| Wait Until Element Found | false    |                        |                             |
+| Options                                                 | Required | Description            | Value                       |
+| ------------------------------------------------------- | -------- | ---------------------- | --------------------------- |
+| Selector Type                                           | true     | Element Selector Type  |                             |
+| Selector Query                                          | true     | Element Selector Query |                             |
+| Field Value                                             | true     | Fill CSS style name    | float:left;margin-top:75px; |
+| Wait Until Element Found                                | false    |                        |                             |
+| Execute the action of the function on multiple elements | false    |                        |                             |
 
 ## removeCSSText
 
 The `removeCSSText` method remove the text of the element's inline style.
 
-| Params                   | Required | Description            | Value               |
-| ------------------------ | -------- | ---------------------- | ------------------- |
-| Selector Type            | true     | Element Selector Type  |                     |
-| Selector Query           | true     | Element Selector Query |                     |
-| Field Value              | true     | Fill CSS style name    | float,margin-top,.. |
-| Wait Until Element Found | false    |                        |                     |
+| Options                                                 | Required | Description            | Value               |
+| ------------------------------------------------------- | -------- | ---------------------- | ------------------- |
+| Selector Type                                           | true     | Element Selector Type  |                     |
+| Selector Query                                          | true     | Element Selector Query |                     |
+| Field Value                                             | true     | Fill CSS style name    | float,margin-top,.. |
+| Wait Until Element Found                                | false    |                        |                     |
+| Execute the action of the function on multiple elements | false    |                        |                     |
 
 :::info
 If you want to remove all element style then set value `remove-all-css-text`.
@@ -267,23 +330,25 @@ If you want to remove all element style then set value `remove-all-css-text`.
 
 The `insertElementAttribute` method sets the value of an attribute on the element. If the attribute already exists, the value is updated otherwise a new attribute is added with the specified **name** and **value**.
 
-| Params                   | Required | Description                   | Value            |
-| ------------------------ | -------- | ----------------------------- | ---------------- |
-| Selector Type            | true     | Element Selector Type         |                  |
-| Selector Query           | true     | Element Selector Query        |                  |
-| Field Value              | true     | Fill attribute name and value | attName,attValue |
-| Wait Until Element Found | false    |                               |                  |
+| Options                                                 | Required | Description                   | Value            |
+| ------------------------------------------------------- | -------- | ----------------------------- | ---------------- |
+| Selector Type                                           | true     | Element Selector Type         |                  |
+| Selector Query                                          | true     | Element Selector Query        |                  |
+| Field Value                                             | true     | Fill attribute name and value | attName,attValue |
+| Wait Until Element Found                                | false    |                               |                  |
+| Execute the action of the function on multiple elements | false    |                               |                  |
 
 ## removeElementAttribute
 
 If you want to remove the attribute of an element then you can use it one or more.
 
-| Params                   | Required | Description            | Value                       |
-| ------------------------ | -------- | ---------------------- | --------------------------- |
-| Selector Type            | true     | Element Selector Type  |                             |
-| Selector Query           | true     | Element Selector Query |                             |
-| Field Value              | true     | Fill attribute name    | attName,attName,attName,... |
-| Wait Until Element Found | false    |                        |                             |
+| Options                                                 | Required | Description            | Value                       |
+| ------------------------------------------------------- | -------- | ---------------------- | --------------------------- |
+| Selector Type                                           | true     | Element Selector Type  |                             |
+| Selector Query                                          | true     | Element Selector Query |                             |
+| Field Value                                             | true     | Fill attribute name    | attName,attName,attName,... |
+| Wait Until Element Found                                | false    |                        |                             |
+| Execute the action of the function on multiple elements | false    |                        |                             |
 
 ## scrollToTopLeft
 
@@ -307,7 +372,7 @@ The `scrollIntoView` method scrolls an element into the visible area of the brow
 
 - https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
 
-| Params                   | Required | Description                                                                                  |
+| Options                  | Required | Description                                                                                  |
 | ------------------------ | -------- | -------------------------------------------------------------------------------------------- |
 | Selector Type            | true     | Element Selector Type                                                                        |
 | Selector Query           | true     | Element Selector Query                                                                       |
@@ -322,7 +387,7 @@ If you use this function, then the tab in which the sound is playing will not pa
 
 If you want to wait for some time, then you can wait by giving value in seconds through this function.
 
-| Params      | Required | Description  |
+| Options     | Required | Description  |
 | ----------- | -------- | ------------ |
 | Field Value | true     | Fill seconds |
 
@@ -339,6 +404,6 @@ If you want to get page title string.
 
 If you want to **set/change** page title.
 
-| Params      | Required | Description       |
+| Options     | Required | Description       |
 | ----------- | -------- | ----------------- |
 | Field Value | true     | Fill Title String |

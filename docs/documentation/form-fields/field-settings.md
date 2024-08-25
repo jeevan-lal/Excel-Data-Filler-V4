@@ -87,13 +87,13 @@ If any of the conditions given in this setting are **true** then the action of t
 
 ## Wait until the response status of the given element change fields comes
 
-In this Settings, only the Field Name of [Element Change](/documentation/field-types/element-change) Field Type can be given. This setting checks the status of the given field and if the field status is _true_, the filler proceeds.
+In this Settings, only the Field Name of [Element Change](/documentation/field-types/element-change) Field Type can be given. This setting checks the status of the given field `(After Field/Before Field)` and if the field status is _true_, the filler proceeds.
 
 <img src="/image/field-settings-11.png" alt="Site Settings">
 
 ## Wait until the response status of the given request monitor fields comes
 
-In this Settings, only the Field Name of [Request Monitor](/documentation/field-types/request-monitor) Field Type can be given. This setting checks the status of the given field and if the field status is _true_, the filler proceeds.
+In this Settings, only the Field Name of [Request Monitor](/documentation/field-types/request-monitor) Field Type can be given. This setting checks the status of the given field `(After Field/Before Field)` and if the field status is _true_, the filler proceeds.
 
 <img src="/image/field-settings-12.png" alt="Site Settings">
 
@@ -133,6 +133,10 @@ If value of the given field is present in the `Field Values` given below then th
 
 If value of the field `(Does the Beneficiary have Aadhaar Card?)` is `No/N` in Excel then the field in which this condition is given will be `skipped`.
 
+::: info 
+If you want to set blank/empty value then fill it with `''`.
+:::
+
 ## Is this field Required
 
 If the field is required in the form then you can turn on this setting. If you have used [Public Key](/documentation/keys#public-keys) **`{FORM-FILLED}`** to submit the form, then this key checks only _Required Fields_. If all the Required Fields are filled then **{FORM-FILLED}** Key will submit the Form, otherwise not.
@@ -141,13 +145,19 @@ If the field is required in the form then you can turn on this setting. If you h
 
 After running the field, if the **response** of the field is `success` then this setting is executed.
 
-[Field Response Action](/documentation/form-fields/field-response-action)
+[Field Response Action](/documentation/form-fields/field-response-action#field-success-response-action)
 
 ## Field Error Response Action
 
 After running the field, if the **response** of the field is `error` then this setting is executed.
 
-[Field Response Action](/documentation/form-fields/field-response-action)
+[Field Response Action](/documentation/form-fields/field-response-action#field-error-response-action)
+
+## Field Skip Response Action
+
+After running the field, if the **response** of the field is `skip` then this setting is executed.
+
+[Field Skip Action](/documentation/form-fields/field-response-action#field-skip-response-action)
 
 ## If error response is coming in the field then stop filler
 

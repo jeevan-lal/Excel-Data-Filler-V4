@@ -19,6 +19,17 @@ If you want to take a screenshot of the page then you can use this.
 Will capture the `entire page` if you are using `Firefox` browser.
 :::
 
+## Update Tab
+
+Action on Active Tab.
+
+- `active`
+- `autoDiscardable`
+- `highlighted`
+- `muted`
+- `pinned`
+- `url`
+
 ## Go Back to Previous Page
 
 if `element value` is `false` then skip this action (also set tab id in the `element value`)
@@ -66,6 +77,10 @@ This field type can be used to **close** the browser **Window**.
 If you want to change the name of the file being downloaded in the browser, then use it before clicking on the download button.
 
 <SetDownloadItemFileNameDetailsTable/>
+
+::: warning
+This field type only uses single file rename at a time, does not work on multiple tabs and multiple files.
+:::
 
 ## Insert CSS
 

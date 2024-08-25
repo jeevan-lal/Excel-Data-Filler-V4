@@ -1,6 +1,6 @@
 {
   "name": "excellent-data-filler-doc",
-  "version": "4.5.10",
+  "version": "4.7.2",
   "description": "Excellent Data Filler Extension Documentation",
   "scripts": {
     "dev": "vitepress dev docs",
@@ -15,7 +15,7 @@
   "author": "Jeevan Lal",
   "license": "MIT",
   "dependencies": {
-    "vitepress": "^1.2.3",
+    "vitepress": "^1.3.4",
     "vue": "^3.2.41"
   }
 }

@@ -15,12 +15,32 @@ Following **Helper Program** needs to be downloaded and installed on your comput
 - Value - `ahk_exe chrome.exe`
 
 ### X-Click (Space Key)
+
 ### X-Paste Text
+
+You can fill `text` in this field value. This field type fills the value into the `focused` element in the page.
+
+| Available Other Options               |
+| ------------------------------------- |
+| Clear field value then fill new value |
+
 ### X-WinAlwaysOnTop (Activate)
+
 ### X-WinAlwaysOnTop (Deactivate)
+
+### X-KeyWait
+
+if field value is `a` then extension wait for the `a` key to be released.
+
 ### X-Send
 
 - Value - `{F1}`
+- You can fill `text` in this field value.
+- This field type fills the value into the `focused` element in the page.
+
+| Available Other Options               |
+| ------------------------------------- |
+| Clear field value then fill new value |
 
 ### X-MouseClick
 
@@ -34,7 +54,7 @@ Following **Helper Program** needs to be downloaded and installed on your comput
 
 ### X-FileGetSize
 
-Get file size in `Bytes`, set file path in the `field value`. 
+Get file size in `Bytes`, set file path in the `field value`.
 
 ```
 # Supported URL/Path

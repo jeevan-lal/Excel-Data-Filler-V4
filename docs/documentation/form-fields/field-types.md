@@ -82,6 +82,7 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 - [X-Paste Text](/documentation/field-types/program-helper#x-paste-text)
 - [X-WinAlwaysOnTop (Activate)](/documentation/field-types/program-helper#x-winalwaysontop-activate)
 - [X-WinAlwaysOnTop (Deactivate)](/documentation/field-types/program-helper#x-winalwaysontop-deactivate)
+- [X-KeyWait](/documentation/field-types/program-helper#x-keywait)
 
 ## Program Helper - Advance
 
@@ -103,6 +104,7 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 
 - [Open a new Tab](/documentation/field-types/browser-actions#open-a-new-tab)
 - [Capture Tab](/documentation/field-types/browser-actions#capture-tab)
+- [Update Tab](/documentation/field-types/browser-actions#update-tab)
 - [Go Back to Previous Page](/documentation/field-types/browser-actions#go-back-to-previous-page)
 - [Go Forward to Next Page](/documentation/field-types/browser-actions#go-forward-to-next-page)
 - [Reload Tab](/documentation/field-types/browser-actions#reload-tab)
@@ -131,10 +133,25 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 
 ## Date and Time
 
-- [Current Date and Time](/documentation/field-types/date-time#)
-- [Change Date Format](/documentation/field-types/date-time#)
-- [Increase Date](/documentation/field-types/date-time#)
-- [Decrease Date](/documentation/field-types/date-time#)
+- [Current Date and Time](/documentation/field-types/date-time#current-date-and-time)
+- [Change Date Format](/documentation/field-types/date-time#change-date-format)
+- [Increase Date](/documentation/field-types/date-time#increase-date)
+- [Decrease Date](/documentation/field-types/date-time#decrease-date)
+
+## Extension Actions
+
+- [Excel Template Entry](/documentation/field-types/extension-actions#excel-template-entry)
+- [Excel Template Entries](/documentation/field-types/extension-actions#excel-template-entries)
+- [Modify Excel Entry Field Value](/documentation/field-types/extension-actions#modify-excel-entry-field-value)
+
+## Math Actions
+
+- [Sum (+)](/documentation/field-types/math-actions#sum)
+- [Subtract (-)](/documentation/field-types/math-actions#subtract)
+- [Multiply (\*)](/documentation/field-types/math-actions#multiply)
+- [Divide (÷)](/documentation/field-types/math-actions#divide-÷)
+- [Count](/documentation/field-types/math-actions#count)
+- [Calculate Math Query](/documentation/field-types/math-actions#calculate-math-query)
 
 ## Others
 

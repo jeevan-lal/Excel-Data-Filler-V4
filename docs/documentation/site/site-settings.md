@@ -16,6 +16,18 @@ You can enable this option if you want to turn off the filler when there is no E
 
 You can set global separator for split value. Which will work in all fields.
 
+::: warning NOTE
+If there are values ​​in new line then use this `\r\n` for split values.
+:::
+
+### If you want to see Entry's status bar, then turn it on.
+
+In status bar see current active entry number and total entry number in this tool bar.
+
+### Set delay time when filling out the form.
+
+Set form filling speed with this option.
+
 ### Excel Date Format
 
 If you are using date in excel sheet, then you can set the format of date in the site through this option.
