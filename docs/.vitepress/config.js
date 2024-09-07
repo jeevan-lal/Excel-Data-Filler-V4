@@ -263,6 +263,10 @@ const sideBarList = [
       {
         text: 'Site',
         link: '/documentation/testing-site'
+      },
+      {
+        text: 'RegEx',
+        link: '/documentation/regex'
       }
     ]
   }

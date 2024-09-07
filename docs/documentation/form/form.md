@@ -52,6 +52,8 @@ Match with RegEx (Two RegEx)
 
 <img src="/image/form-url-with-regex.png" width="500" height="500" alt="RegEx">
 
+> [Online Test RegEx](/documentation/regex)
+
 ## Insert Multiple Form
 
 If your site has multiple forms, then you can insert all the forms in the same site, for this you have to first [insert the main form of the site](/documentation/site/site#insert-site).

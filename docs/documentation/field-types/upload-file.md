@@ -27,6 +27,7 @@ Specify Base Folder for File Upload, (a folder which container the files which y
 - Multiple File Upload
 - Upload all files in a folder
 - First check that the file exists in the PC, then select the file.
+- Set the uploading browser window title name.
 
 ## Example
 
