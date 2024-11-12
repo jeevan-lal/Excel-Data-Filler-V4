@@ -19,9 +19,14 @@ Fields are used to fill data in the form and there is a type of these fields so 
 - Material Single Select
 - Material Multiple Select
 - [Date Picker](/documentation/field-types/date-picker)
+- [Clock Picker](/documentation/field-types/clock-picker)
+- [Digital Clock Picker](/documentation/field-types/digital-clock-picker)
 - [Loop](/documentation/field-types/loop)
 - [Element Change](/documentation/field-types/element-change)
 - [Request Monitor](/documentation/field-types/request-monitor)
+- [TinyMCE Editor](/documentation/field-types/tinymce-editor)
+- [CKEditor](/documentation/field-types/ckeditor)
+- [Table Advance Options](/documentation/field-types/table-advance-options)
 
 :::warning
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
@@ -103,10 +108,12 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 ## Browser Actions
 
 - [Open a new Tab](/documentation/field-types/browser-actions#open-a-new-tab)
+- [Get Tab ID](/documentation/field-types/browser-actions#get-tab-id)
 - [Capture Tab](/documentation/field-types/browser-actions#capture-tab)
 - [Update Tab](/documentation/field-types/browser-actions#update-tab)
 - [Go Back to Previous Page](/documentation/field-types/browser-actions#go-back-to-previous-page)
 - [Go Forward to Next Page](/documentation/field-types/browser-actions#go-forward-to-next-page)
+- [Check Downloads](/documentation/field-types/browser-actions#check-downloads)
 - [Reload Tab](/documentation/field-types/browser-actions#reload-tab)
 - [Focus Tab](/documentation/field-types/browser-actions#focus-tab)
 - [Focus Window](/documentation/field-types/browser-actions#focus-window)
@@ -168,3 +175,4 @@ Material field type works on Material framework like **Vuetify, MUI, React Mater
 - Page Loading
 - Toast Notification
 - [Target Element For Print](/documentation/field-types/target-element-for-print)
+- [Insert Iframe](/documentation/field-types/insert-iframe)

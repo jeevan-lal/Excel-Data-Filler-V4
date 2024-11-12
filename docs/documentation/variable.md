@@ -43,8 +43,50 @@ Use this variable in the format `{{variable_name}}`
 | date.today[x]                                                                 | Generate today date and time timestamp                                                                                      | <TodayDate/>                              |
 | random.date[YYYY-MM-DD][1994][2012]                                           | Generate random date for given format within **1994**-**2012**                                                              | 2012-09-12 <br> 1993-12-01,..             |
 | random.mobile[10][6,7,8,9]                                                    | Generate random mobile number.<br> - Mobile Number Length **[10]**<br> - Mobile Number Which Is Starting With **[6,7,8,9]** | 9567893476<br>7590556721<br>6534980345,.. |
+| random.year[1994][2012]                                                       | Generate random year value form **1994** to **2012**.                                                                       | 2001 <br> 1998,..                         |
+| random.choose[red,green,blue][,] <br> `random.choose[string][divider]`        | Generate random string value from `red,green,blue`                                                                          | red <br> green <br> blue,..               |
+| [random.month[format][lang]](#random-month-format-lang)                       | Generate random month in specified format and language.                                                                     |
+| [random.day[format][lang]](#random-day-format-lang)                           | Generate random day in specified format and language.                                                                       |
 
 - [Check All Date Formats](https://day.js.org/docs/en/display/format#list-of-all-available-formats)
+
+### random.month[format][lang]
+
+| Format | Description                                      | Example   |
+| ------ | ------------------------------------------------ | --------- |
+| `n`    | Returns a numeric month without padding, 1-12    | `1`       |
+| `nn`   | Returns a numeric month with zero-padding, 01-12 | `01`      |
+| `s`    | Capitalized short month name (e.g., Jan)         | `Jan`     |
+| `ss`   | Lowercase short month name (e.g., jan)           | `jan`     |
+| `su`   | Uppercase short month name (e.g., JAN)           | `JAN`     |
+| `f`    | Capitalized full month name (e.g., January)      | `January` |
+| `fs`   | Lowercase full month name (e.g., january)        | `january` |
+| `fu`   | Uppercase full month name (e.g., JANUARY)        | `JANUARY` |
+
+### random.day[format][lang]
+
+| Format | Description                                    | Example  |
+| ------ | ---------------------------------------------- | -------- |
+| n      | Returns a numeric day without padding, 1-7     | `1`      |
+| nn     | Returns a numeric day with zero-padding, 01-07 | `01`     |
+| s      | Capitalized short day name (e.g., Sun)         | `Sun`    |
+| ss     | Lowercase short day name (e.g., sun)           | `sun`    |
+| su     | Uppercase short day name (e.g., SUN)           | `SUN`    |
+| f      | Capitalized full day name (e.g., Sunday)       | `Sunday` |
+| fs     | Lowercase full day name (e.g., sunday)         | `sunday` |
+| fu     | Uppercase full day name (e.g., SUNDAY)         | `SUNDAY` |
+
+#### Language
+
+| Language Symbol | Language Name |
+| --------------- | ------------- |
+| `en`              | English       |
+| `es`              | Spanish       |
+| `fr`              | French        |
+| `de`              | German        |
+| `it`              | Italian       |
+| `pt`              | Portuguese    |
+| `ru`              | Russian       |
 
 ## Calculation
 

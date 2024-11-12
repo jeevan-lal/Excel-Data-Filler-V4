@@ -37,13 +37,21 @@ After opening the print window and before saving the page, delay time can be giv
 
 This option is used only in `Firefox Browser` to save the file directly.
 
+## Set the save as browser window title name
+
+When you are using the print option to save the page as a PDF, you can set the title of the browser window that appears during the save process. This option allows you to specify different browser window titles for different languages.
+
+![title](/image/image.png)
+
 ## Field Value
 
 If you want to change the name of the file then you can give the name of the file in the value of the field.
 
 :::tip
 Set field value if file defined by specific name
+
 ```
 text-{{date.today[x]}}
 ```
+
 :::

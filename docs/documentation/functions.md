@@ -407,3 +407,20 @@ If you want to **set/change** page title.
 | Options     | Required | Description       |
 | ----------- | -------- | ----------------- |
 | Field Value | true     | Fill Title String |
+
+## isWindowChild
+
+If you want to check whether the current window is a child window or not, then you can use it. This function returns `true` (1) if it is a child window, `false` (0) otherwise.
+
+## isWindowIframe
+
+If you want to check whether the current window is an iframe or not, then you can use it. This function returns `true` (1) if it is an iframe, `false` (0) otherwise.
+
+## countElementLength
+
+To count the **length** of an element then you can use this function.
+
+| Options        | Required | Description            |
+| -------------- | -------- | ---------------------- |
+| Selector Type  | true     | Element Selector Type  |
+| Selector Query | true     | Element Selector Query |

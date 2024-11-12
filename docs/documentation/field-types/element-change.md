@@ -17,6 +17,7 @@ The part in which the change is taking place in the element is given here.
 - attributes
 - childList
 - characterData
+- subtree
 
 ## Timeout to Check Element Change
 

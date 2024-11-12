@@ -246,6 +246,7 @@ const sideBarList = [
       }
     ]
   },
+
   {
     text: 'Locate Element',
     collapsed: true,
@@ -269,7 +270,11 @@ const sideBarList = [
         link: '/documentation/regex'
       }
     ]
-  }
+  },
+  {
+    text: 'Browser Bus',
+    link: '/documentation/browser-bus'
+  },
 ];
 
 export default {
