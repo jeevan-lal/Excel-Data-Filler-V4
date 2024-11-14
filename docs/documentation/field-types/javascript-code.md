@@ -4,7 +4,7 @@ You can use Javascript code in any field or you can give any field only in **Jav
 
 ```js
 // Where your code is ending, add this line only then the form will run further.
-localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", "1");
+$fns.return("1");
 ```
 
 - You can set `default value` in the field type.
@@ -44,7 +44,7 @@ var response = { loopStop: true };
 var response = { status: false, message: "Error Message" };
 
 // RETURN RESPONSE
-localStorage.setItem("EXCEL-DATA-FILLER-V4-EXECUTE-JS-CODE-RESPONSE", JSON.stringify(response));
+$fns.return(JSON.stringify(response));
 ```
 
 ## Editor Shortcut keys
@@ -120,4 +120,3 @@ await $fns.randomInteger(min: Number, max: Number);
 ```js
 await $fns.randomFloat(min: Number, max: Number, fixed: Number);
 ```
-
