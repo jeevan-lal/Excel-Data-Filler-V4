@@ -63,10 +63,26 @@ If calendar do not open when we click on input field because it is attached to a
 
 - [flatpickr](https://github.com/flatpickr/flatpickr)
 
-::: info
+::: details flatpickr date picker
 If using `flatpickr` date picker then set only one js event `change` in the field settings.
 :::
 
 - [date-picker](https://github.com/duetds/date-picker)
 - [react-multi-date-picker](https://github.com/shahabyazdi/react-multi-date-picker)
-- more..
+- https://www.daterangepicker.com/
+
+::: details daterange picker
+
+- **NOTE:** Auto date filling is not currently supported for this field.
+- Use Javascript to set the date value in the input field
+  ```js
+  var dateInput = $("dateInputQuery");
+  if (dateInput) dateInput.data("daterangepicker").setStartDate("12-30-2024");
+  ```
+- Date Picker Other Selector Queries
+
+  - `Previous Button` : div.drp-calendar[style*="display: block;"] table th.prev
+  - `Next Button` : div.drp-calendar[style*="display: block;"] table th.next
+  - `Days Selector Address` : div.drp-calendar[style*="display: block;"] table tbody td:not(.week):not(.off)
+
+  :::

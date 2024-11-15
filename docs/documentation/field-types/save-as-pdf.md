@@ -17,6 +17,8 @@ To save the page in PDF format, you can use this field type which is done throug
 
 If your file/PDF is downloaded after clicking on any button, then you can give the selector query of that button in the field. But if you want to save the page through `Ctrl + P` then you can turn on this option so that you will not need to press `Ctl + P` buttons.
 
+This field type allows you to download a `PDF` file that is `embedded` within browser. 
+
 ## Do not identify print window as per image
 
 When we `print` a page, its print preview comes first. To identify that `print preview window`, the option given below is done, but if you do not want this, then you can turn on that option.
@@ -37,6 +39,25 @@ After opening the print window and before saving the page, delay time can be giv
 
 This option is used only in `Firefox Browser` to save the file directly.
 
+### Customize PDF Page Settings
+
+This option allows you to customize the PDF page settings, such as page size, orientation, margins, and header/footer. You can specify these settings using the [PageSettings API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/PageSettings).
+
+![Image](image/image.png)
+
+**Example:**
+
+If you are using these settings: `paperHeight=297,paperWidth=210,orientation=1,scaling=0.65,paperSizeUnit=1,shrinkToFit=true` then page save A4 landscape size.
+
+| Properties        | Value | Description                                                       |
+| ----------------- | ----- | ----------------------------------------------------------------- |
+| **paperHeight**   | 297   | A4 height in mm                                                   |
+| **paperWidth**    | 210   | A4 width in mm                                                    |
+| **orientation**   | 1     | 0 means "portrait", 1 means "landscape"                           |
+| **scaling**       | 0.65  | Sets the scaling factor for the page content. Default value is 1. |
+| **paperSizeUnit** | 1     | 0 = inches, 1 = millimeters                                       |
+| **shrinkToFit**   | true  | Whether the page content should shrink to fit the page width      |
+
 ## Set the save as browser window title name
 
 When you are using the print option to save the page as a PDF, you can set the title of the browser window that appears during the save process. This option allows you to specify different browser window titles for different languages.
@@ -48,7 +69,8 @@ When you are using the print option to save the page as a PDF, you can set the t
 If you want to change the name of the file then you can give the name of the file in the value of the field.
 
 :::tip
-Set field value if file defined by specific name
+:::v-pre
+Set field value if file defined by specific name, `{{date.today[x]}}` variable provide a unique digit so file have unique name every time.
 
 ```
 text-{{date.today[x]}}

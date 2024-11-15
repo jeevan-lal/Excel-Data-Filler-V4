@@ -17,6 +17,6 @@ This field type allows you to embed an `iframe` into your page. You can provide 
 
 ## Iframe Content
 
-You can provide content directly in the field's `default value` option. This allows you to pre-populate the iframe with content, making it easier to set up and use.
+You can provide `content/value` directly in the field's [`default value`](/documentation/form-fields/field-settings#if-excel-column-value-is-empty-then-fill-this-default-value) option. This allows you to pre-populate the iframe with content, making it easier to set up and use.
 
 You can also use [variables](/documentation/variable#variable) in the iframe content. This is especially useful when you need to dynamically adjust the iframe's content based on other data or user input.

@@ -16,12 +16,12 @@ To insert the site, you can also do it by right-clicking on the form with the mo
 
 <img src="/image/insert-site-manually-01.png" alt="Insert Site Manually">
 
-- Site Title  
-- Site Description  
-- Site Active/Inactive
-- Edit Site  
+- Site Title
+- Site Description
+- Site Active/Deactivate
+- Edit Site
 - Duplicate Site
-- Copy Site ID  
+- Copy Site ID
 - Delete Site
 
 ## Continue exploring

@@ -50,6 +50,21 @@ Use this variable in the format `{{variable_name}}`
 
 - [Check All Date Formats](https://day.js.org/docs/en/display/format#list-of-all-available-formats)
 
+::: details If the page has multiple elements with the same selector, how do I select a random one?
+
+```js
+input:nth-child({{random.integer[1][3]}})
+```
+
+:::v-pre
+**`{{random.integer[1][3]}}`**
+
+This [variable](/documentation/variable) is used to generate a random integer between `1` and `3`.
+It's particularly useful for selecting a random element from a group of elements with the same selector,
+ensuring your data is filled in a random element within that group.
+
+:::
+
 ### random.month[format][lang]
 
 | Format | Description                                      | Example   |
@@ -80,13 +95,13 @@ Use this variable in the format `{{variable_name}}`
 
 | Language Symbol | Language Name |
 | --------------- | ------------- |
-| `en`              | English       |
-| `es`              | Spanish       |
-| `fr`              | French        |
-| `de`              | German        |
-| `it`              | Italian       |
-| `pt`              | Portuguese    |
-| `ru`              | Russian       |
+| `en`            | English       |
+| `es`            | Spanish       |
+| `fr`            | French        |
+| `de`            | German        |
+| `it`            | Italian       |
+| `pt`            | Portuguese    |
+| `ru`            | Russian       |
 
 ## Calculation
 

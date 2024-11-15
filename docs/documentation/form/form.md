@@ -20,7 +20,7 @@ First we have to [insert the site](/documentation/site/site#insert-site), after 
 - Page URL
 - Match URL Types
 - Description
-- Active/Inactive
+- Active/Deactivate
 - Move Up/Down
 - Form Fields
 - Edit Form

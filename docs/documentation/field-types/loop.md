@@ -15,7 +15,7 @@ Loops can execute a [segment](/documentation/segment) a number of times. Loops a
 
 ## Which segment do you want to execute
 
-The name of the segment which is to be executed in the loop comes in this option.
+The name of the [segment](/documentation/segment) which is to be executed in the loop comes in this option.
 
 ## How many times the segment has to be run
 
@@ -46,8 +46,16 @@ To stop the loop, you can do it through the field settings given below.
 
 :::
 
+::: details How to skip any loop index?
+To skip any loop index (1,2,3,..), use the `Field Success Response` or `Field Error Response` options in the field settings. Choice `Skip Segment` action.
+:::
+
 ## If field value is multiline
 
 ## Store Loop Index
 
 If the page on which you are using the loop is **refreshed** after the loop's action and the Loop starts from again the first number then you can use this option.
+
+## Form Field has multiple elements
+
+If the field is being used in `Loop` Field Type, then after turning on this [`field setting`](/documentation/form-fields/field-settings#if-this-field-is-being-used-in-a-loop-and-the-field-has-multiple-elements), if the element given in the field is multiple in the page, then we will get one element through the `index` of the loop.

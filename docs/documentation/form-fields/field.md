@@ -14,7 +14,7 @@ After filling the form of the site, you have to insert the field of the form, th
 | **Field Type**            | **Yes**  |
 | **Field Selector Type**   | **Yes**  |
 | **Field Selector Query**  | **Yes**  |
-| **Active/InActive**       | **Yes**  |
+| **Active/Deactivate**     | **Yes**  |
 
 ## Field Options
 
@@ -46,6 +46,22 @@ $.document.querySelector("#container");
 $.document.querySelector("#container").parentNode;
 $.document.querySelector("#container").shadowRoot.querySelector("#full_name");
 ```
+
+:::
+
+::: details If the page has multiple elements with the same selector, how do I select a random one?
+
+```js
+input:nth-child({{random.integer[1][3]}})
+```
+
+:::v-pre
+**`{{random.integer[1][3]}}`**
+
+This [variable](/documentation/variable) is used to generate a random integer between `1` and `3`. 
+It's particularly useful for selecting a random element from a group of elements with the same selector, 
+ensuring your data is filled in a random element within that group.
+
 :::
 
 #### [How to generate field selector query?](/documentation/locate-element)
@@ -58,6 +74,6 @@ To copy the Field Selector Query, after installing the extension, you can copy t
 
 <img src="/image/field-settings-10.png" alt="Field">
 
-### Active/InActive
+### Active/Deactivate
 
 It is used to activate and deactivate the field. If the field is deactivated then the column of that field is not created in the excel sheet.

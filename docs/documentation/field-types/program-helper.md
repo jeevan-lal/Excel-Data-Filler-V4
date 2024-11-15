@@ -30,7 +30,9 @@ You can fill `text` in this field value. This field type fills the value into th
 
 ### X-KeyWait
 
-if field value is `a` then extension wait for the `a` key to be released.
+if field value is `a` then extension wait for the `a` key to be released. 
+
+If you need to send multiple keystrokes, like `"alt+a"`, you will need to insert two `X-KeyWait` field types in the extension form: one for `"alt"` and one for `"a"`. 
 
 ### X-Send
 

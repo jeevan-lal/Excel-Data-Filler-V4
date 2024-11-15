@@ -14,10 +14,14 @@ Fields are used to fill data in the form and there is a type of these fields so 
 - [Upload File](/documentation/field-types/upload-file)
 - [Video](/documentation/field-types/video)
 
+:::warning INFO
+If using `jquery inputMask` text field then trigger only the `paste` event (if the value is not filled in the input).
+:::
+
 ## External
 
-- Material Single Select
-- Material Multiple Select
+- [Material Single Select](/documentation/field-types/material-single-select)
+- [Material Multiple Select](/documentation/field-types/material-multiple-select)
 - [Date Picker](/documentation/field-types/date-picker)
 - [Clock Picker](/documentation/field-types/clock-picker)
 - [Digital Clock Picker](/documentation/field-types/digital-clock-picker)
@@ -28,7 +32,7 @@ Fields are used to fill data in the form and there is a type of these fields so 
 - [CKEditor](/documentation/field-types/ckeditor)
 - [Table Advance Options](/documentation/field-types/table-advance-options)
 
-:::warning
+:::warning INFO
 Material field type works on Material framework like **Vuetify, MUI, React Material, Angular Material**, etc.
 :::
 
