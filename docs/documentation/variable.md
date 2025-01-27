@@ -9,11 +9,11 @@ You have to use these variables inside curly braces `{{}}` and `{$variable_name$
 
 ## Example
 
-| Variable                                   |
-| ------------------------------------------ |
-| `{$field_name$}`                           |
-| `{{calculation.increase[20]}}`             |
-| `{{calculation.increase[{$field_name$}]}}` |
+| Variable                            |
+| ----------------------------------- |
+| `{$field_name$}`                    |
+| `{{math.increase[20]}}`             |
+| `{{math.increase[{$field_name$}]}}` |
 
 ## Page Location Variable
 
@@ -103,33 +103,54 @@ ensuring your data is filled in a random element within that group.
 | `pt`            | Portuguese    |
 | `ru`            | Russian       |
 
-## Calculation
+## Mathmatic Variable
 
 :::v-pre
 Use this variable in the format `{{variable_name}}`
 
-| Variable Name           | Description             | Output |
-| ----------------------- | ----------------------- | ------ |
-| calculation.increase[2] | To increase the number. | 3      |
-| calculation.decrease[3] | To decrease the number. | 2      |
+| Variable Name                 | Description                                         | Output |
+| ----------------------------- | --------------------------------------------------- | ------ |
+| math.sum[value1][value2]      | Add `value2` to `value1`.                           |        |
+| math.subtract[value1][value2] | Subtract `value2` from `value1`.                    |        |
+| math.multiply[value1][value2] | Multiply `value1` by `value2`.                      |        |
+| math.divide[value1][value2]   | Divide `value1` by `value2`.                        |        |
+| math.length[string][divider]  | Return the length of `string` divided by `divider`. |        |
+| math.query[string]            |                                                     |        |
+| math.unique.number            | Return a unique number.                             |        |
+| math.increase[2]              | To increase the number.                             | 3      |
+| math.decrease[3]              | To decrease the number.                             | 2      |
+
+- Examples
+
+  ```
+  {{math.sum[2001][4]}} // OUTPUT: 2005
+  {{math.length[abcde][]}} // OUTPUT: 5
+  {{math.length[1990][]}} // OUTPUT: 4
+  {{math.length[a,b,c,d,e][,]}} // OUTPUT: 5
+  {{math.length[a|b|c|d|e][|]}} // OUTPUT: 5
+  {{math.query[1+2+3+4]}} // OUTPUT: 10
+  {{math.query[5*2]}} // OUTPUT: 10
+  ```
 
 :::v-pre
 :::tip
 
-- Using other variable - `calculation.increase[{{random.integer[9][12]}}]`
-- Nested - `calculation.increase[{{random.integer[9][{{random.integer[19][112]}}]}}]`
+- Using other variable - `math.increase[{{random.integer[9][12]}}]`
+- Nested - `math.increase[{{random.integer[9][{{random.integer[19][112]}}]}}]`
 
 :::
 
-## Entry Variable
+## Excel Data Variable
 
 :::v-pre
 Use this variable in the format `{{variable_name}}`
 
-| Variable Name | Description                        |
-| ------------- | ---------------------------------- |
-| entry.index   | Get Current Active Excel Entry No. |
-| entry.length  | Get Total Excel Entry No.          |
+| Variable Name                      | Description                                                  |
+| ---------------------------------- | ------------------------------------------------------------ |
+| excel.row.index                    | Get Current Active Excel Entry Index. (Start with 0,1,2,...) |
+| excel.row.number                   | Get Current Active Excel Entry No. (Start with 1,2,3,...)    |
+| excel.rows.length                  | Get Total Excel Entry No.                                    |
+| excel.row[row-number][column-name] | Get Specific Excel Data.                                     |
 
 ## Loop Variable
 
@@ -148,7 +169,7 @@ If Loop setting `Store Loop Index` is `on` then return actual Loop index but if 
 :::v-pre
 :::tip
 
-- You can increase/decrease loop index. `calculation.increase[{{loop.index[FieldName]}}]`
+- You can increase/decrease loop index. `math.increase[{{loop.index[FieldName]}}]`
 - Use variable like this: `https://example.com/list?page={{loop.index[Loop]}}`
 
 :::

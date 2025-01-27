@@ -21,8 +21,9 @@ Excellent Data Filler extension is available for all major browsers.
 
 ### Download Extension
 
-- [Chrome Browser](https://chrome.google.com/webstore/detail/excellent-data-filler-cth/abafaagbfhobgjkcepckbnadafflkdea)
-- [Firefox Browser](https://addons.mozilla.org/en-US/firefox/addon/excellent-data-filler-cth/)
+- [For - Chrome Browser](https://chrome.google.com/webstore/detail/excellent-data-filler-cth/abafaagbfhobgjkcepckbnadafflkdea)
+- [For - Chrome Browser - DEV](https://chromewebstore.google.com/detail/excellent-data-filler-dev/pkcdniljhopkooejgnidnfahljpnopgn)
+- [For - Firefox Browser](https://addons.mozilla.org/en-US/firefox/addon/excellent-data-filler/)
 
 ## Quick Start
 
