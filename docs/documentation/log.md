@@ -21,7 +21,7 @@ List of log messages (Life-Cycle Events) from extension to check what is heppenn
 - Option + ⌘ + J (on macOS)
 - Open Console Tab
 
-## From Extension Page
+<!-- ## From Extension Page
 
 - Open extension [settings page](https://efiller.netlify.app/settings).
 - Turn on setting `SLO-1`.
@@ -32,4 +32,4 @@ List of log messages (Life-Cycle Events) from extension to check what is heppenn
 
 <img src="/image/console-log-03.png" alt="Log">
 
-DONE 🎉
+DONE 🎉 -->

@@ -15,8 +15,8 @@
   "author": "Jeevan Lal",
   "license": "MIT",
   "dependencies": {
-    "extra-javascript-functions": "file:../../_extra-javascript-funs",
-    "vitepress": "^1.5.0",
+    "extra-javascript-functions": "file:../../../Javascript/_lib/_extra-javascript-funs",
+    "vitepress": "^2.0.0-alpha.5",
     "vue": "^3.2.41"
   }
 }
